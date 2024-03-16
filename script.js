@@ -57,7 +57,7 @@ console.log(thisExercise);
 
 // PART D
 
-// 1. Create an array of 6 friends (their names)
+// 1. Create an array of 6 friends (their names) & console log it
 
 // 2. Console log the first friend in your array
 
@@ -65,3 +65,14 @@ console.log(thisExercise);
 
 // 4. Console log a random friend in your array
 
+
+let animals = ["cats", "dogs", "birds"];
+console.log(animals);
+
+console.log(animals[0]);
+console.log(animals.length);
+console.log(animals[animals.length - 1]);
+console.log(animals[Math.floor(Math.random() * 3)]);
+                    
+                    
+                    
