@@ -33,22 +33,31 @@ console.log(thisExercise);
 
 
 
-// PART B: Using variables – Console log each one as you answer the questions
+// PART B: Using variables
 
-// 1. Define a variable with your favorite dish (as a string)
+// 1. Define a variable with your favorite dish (as a string). Console log it.
 
-// 2. Define a second variable where you combine a string and the food variable that you created.
-// The goal is to have the console say that the food is your favorite dish
-      // (Tip: As a result, you want the console to say something like: "My favorite dish is pizza")
+// 2. Define a second variable where you combine a phrase (tip: use a string) and the food variable that you created. Console log your second variable.
+    // Goal: When you console log this second variable, to have the console say that the food you defined earlier is your favorite dish (Ex: "My favorite dish is pizza")
 
-// 3. Reuse your food variable, and change its value to a food that you don't like
+// 3. Reuse your food variable, and change its value to a food that you don't like. Console log it.
 
-// 4. Define a third variable where you combine a string and the food variable that you changed, to say that you don't like that dish
-      // (Tip: As a result, you want the console to say something like: "I don't like asparagus")
+// 4. Define a third variable where you combine another phrase (tip: use a string) and your food variable. Console log your third variable.
+    // Goal: When you console log this third variable, to have the console say that the food you defined earlier is a food that you don't like (Ex: "I don't like asparagus")
 
 
 let myDish = "noodles";
-let 
+console.log (myDish);
+
+let mySentence = "My favorite food is " + myDish;
+console.log (mySentence);
+
+myDish = "asparagus";
+console.log (myDish);
+
+let myOtherSentence = "I don't like " + myDish;
+console.log (myOtherSentence);
+
 
 
 
@@ -74,7 +83,8 @@ let
 // 6. Console log a random friend in your array (Tip: You want to see the console logging different friends when you refresh the page)
 
 
-let myFriends = ["John", "Lydia", "Shiv", "Esra", "Jin", "Melissa"];
+let myFriends = ["John", "Anne", "Shiv", "Esra", "Jin", "Kara"];
+
 console.log(myFriends);
 console.log(myFriends[0]);
 console.log(myFriends[5]);
