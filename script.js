@@ -28,12 +28,22 @@ console.log(thisExercise);
 
 // PART 2
 
-// Define a variable named greetings with a greeting word (as a string)
+// Define a variable with your favorite dish (as a string)
 
-// Define a second variable where you're combining your first variable (greeting word) and a name that's a string
+// Define a second variable where you combine a string and the food variable that you created, to say that the food is your favorite dish
 
-// Now, reuse the
+// Reuse your food variable, and change its value to a food that you don't like
 
-// Define a second variable with a name
+// Define a third variable where you combine a string that says "I don't like " and the food variable that you changed
 
-// 
+
+
+let myFood = 'noodles';
+console.log(myFood);
+
+
+let myFavorite = "My favorite dish is " + myFood;
+console.log(greetings);
+
+
+
