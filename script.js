@@ -41,3 +41,20 @@ console.log(thisExercise);
 
 
 
+// PART C
+
+// 1. 
+
+
+
+
+// PART D
+
+// 1. Create an array of 6 friends (their names)
+
+// 2. Console log the first friend in your array
+
+// 3. Console log the last friend in your array
+
+// 4. Console log a random friend in your array
+
