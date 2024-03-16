@@ -1,11 +1,21 @@
-// Define a variable for & console log:
+// PART 1: Define a variable for & console log for each of the questions below.
 
-// 1. A string with your name
+// A string with your name
 
-// 2. Your lucky number
+// Number of classes you're taking
 
-// 3. Are you in class today? Use a boolean 
+// A string with the number of pets you have
 
-// 4. An array of your 5 favorite animals
+// Are you at school today? Use a boolean 
 
-// 5. An array with 
+// An array of your 5 favorite animals
+
+// An array with your 3 favorite numbers
+
+// An object about a movie that consists of its title, director, year, and if it's your favorite or not (using a boolean)
+
+
+
+// PART 2: After answering each question below, console log.
+
+// 
