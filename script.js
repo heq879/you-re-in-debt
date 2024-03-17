@@ -91,6 +91,18 @@ console.log(myFriends[5]);
 console.log(myFriends.length);
 console.log(myFriends[myFriends.length - 1]);
 console.log(myFriends[Math.floor(Math.random() * myFriends.length)]);
+
+
+// Test
+let ageNumber = 45;
+let myAge = "I am " + ageNumber + " years old";
+console.log(myAge);
+
+let lottery = [12, 24, 50, 32, 80];
+let winner = "The winning number is " + lottery[Math.floor(Math.random() * lottery.length)];
+console.log(winner);
+
+
                     
                     
                     
