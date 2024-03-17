@@ -37,32 +37,30 @@ console.log(thisExercise);
 
 // 1. Define a variable with your favorite dish (as a string). Console log it.
 
-// 2. Define a second variable where you combine a phrase (tip: use a string) and the food variable that you created. Console log your second variable.
-    // Goal: When you console log this second variable, to have the console say that the food you defined earlier is your favorite dish (Ex: "My favorite dish is pizza")
+// 2. Console log the message "My favorite dish is [your food]" using a string and the variable you previously created.
 
 // 3. Reuse your food variable, and change its value to a food that you don't like. Console log it.
 
-// 4. Define a third variable where you combine another phrase (tip: use a string) and your food variable. Console log your third variable.
-    // Goal: When you console log this third variable, to have the console say that the food you defined earlier is a food that you don't like (Ex: "I don't like asparagus")
+// 4. Console log another message "I don't like [your food]" using a string and your food variable. The goal is to see the new value of your variable show up as a part of the message.
 
 
 let myDish = "noodles";
 console.log(myDish);
 
-let mySentence = "My favorite food is " + myDish;
-console.log(mySentence);
+console.log("My favorite food is " + myDish);
 
 myDish = "asparagus";
 console.log(myDish);
 
-let myOtherSentence = "I don't like " + myDish;
-console.log(myOtherSentence);
+console.log("I don't like " + myDish);
 
 
 
 // PART C: Math
 
-// 1. 
+// 1. Create 2 different variables for the name and last name of a celebrity you like. Console log a message showing their full name using these variables.
+
+// 2. 
 
 
 
