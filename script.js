@@ -58,7 +58,7 @@ console.log("I don't like " + myDish);
 
 // PART C: Math
 
-// 1. Create 2 different variables for the name and last name of a celebrity you like. Console log a message showing their full name using these variables.
+// 1. Create 2 different variables for the name and last name of a celebrity you like. Console log a message showing their full name using these variables. (Tip: you can add spaces in addition to letters in a string, or as an additional empty string)
 
 // 2. Console log your age by subtracting your birth year from this year.
 
@@ -72,7 +72,14 @@ console.log("I don't like " + myDish);
 
 
 let name = "Florence";
-let lastname = "Welch"
+let lastname = "Welch";
+console.log(name + " " + lastname);
+
+console.log(2024 - 1962);
+
+console.log(38562 % 71);
+
+console.log(Math.random())
 
 
 
