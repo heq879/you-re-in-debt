@@ -47,17 +47,16 @@ console.log(thisExercise);
 
 
 let myDish = "noodles";
-console.log (myDish);
+console.log(myDish);
 
 let mySentence = "My favorite food is " + myDish;
-console.log (mySentence);
+console.log(mySentence);
 
 myDish = "asparagus";
-console.log (myDish);
+console.log(myDish);
 
 let myOtherSentence = "I don't like " + myDish;
-console.log (myOtherSentence);
-
+console.log(myOtherSentence);
 
 
 
