@@ -62,7 +62,17 @@ console.log("I don't like " + myDish);
 
 // 2. Console log your age by subtracting your birth year from this year.
 
-// 3. What is the remainder when you divide 2024 by 6? 
+// 3. What is the remainder when you divide 38,562 by 71? Console log using a single equation.
+
+// 4. Console log a random number between 0 and 1.
+
+// 5. Console log a random number between 0 and 365.
+
+// 6. 
+
+
+let name = "Florence";
+let lastname = "Welch"
 
 
 
