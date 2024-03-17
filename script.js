@@ -60,7 +60,9 @@ console.log("I don't like " + myDish);
 
 // 1. Create 2 different variables for the name and last name of a celebrity you like. Console log a message showing their full name using these variables.
 
-// 2. 
+// 2. Console log your age by subtracting your birth year from this year.
+
+// 3. What is the remainder when you divide 2024 by 6? 
 
 
 
