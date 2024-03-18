@@ -119,6 +119,10 @@ let winner = "The winning number is " + lottery[Math.floor(Math.random() * lotte
 console.log(winner);
 
 
+// Test 2
+let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
+console.log(animal);
+console.log(animal.species);
 
                     
                     
