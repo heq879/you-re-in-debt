@@ -22,14 +22,21 @@ console.log(thisExercise);
 
 // 3. How many pets do you have? – As a string
 
-// 4. Are you at school today? Use a boolean 
+// 4. Are you in class today? Use a boolean 
 
-// 5. An array of your 5 favorite animals
+// 5. An array of 5 movies
 
-// 6. An array with your 3 favorite numbers
+// 6. An array with 5 numbers numbers
 
-// 7. An object about a movie that consists of its title, director, year, and if it's your favorite or not (using a boolean)
+// 7. An object about a movie that consists of its title, director, year, and if it's a favorite of yours or not (using a boolean)
 
+let myName = "Defne";
+let classes = 5;
+let pets = "1";
+let inClass = true;
+let favoriteAnimals = ["Poor Things", "Oppenheimer", "Barbie", "Killers of the Flower Moon", "American Fiction"];
+let myNumbers = [5, 10, 15, 20, 25];
+let myObject = {title: "Poor Things", director: "Yorgos Lanthimos", year: 2024, favorite: true};
 
 
 
@@ -42,7 +49,6 @@ console.log(thisExercise);
 // 3. Reuse your food variable, and change its value to a food that you don't like. Console log it.
 
 // 4. Console log another message "I don't like [your food]" using a string and your food variable. The goal is to see the new value of your variable show up as a part of the message.
-
 
 let myDish = "noodles";
 console.log(myDish);
@@ -82,16 +88,21 @@ console.log(38562 % 71);
 
 // PART D: Arrays
 
-// 1. Create an array of 6 friends (their names) & console log it (inspect how it shows up, and the numbers given to each item in your array)
+// 1. Create an array of 6 friends (their names)
 
-// 2. Console log the first friend in your array using a number
+// 2. Console log it and inspect how it shows up in the console.
 
-// 3. Console log the last friend in your array using a number
+// 3. Console log the first friend in your array using a number
 
-// 4. Console log the number of items in your array (Tip: use array.length)
+// 4. Console log the last friend in your array using a number
 
-// 5. Console log the last friend in your array again, but this time us array.length instead of a set number
+// 5. Console log the number of items in your array (Tip: use array.length)
 
+// 6. Console log the last friend in your array again, but this time us array.length instead of a set number
+
+// 7. Bonus: Add a person to the end of your array, then console log your array to see it updated.
+
+// 8. Bonus: Remove the first person in your array, then console log your array to see it updated.
 
 let myFriends = ["John", "Anne", "Shiv", "Esra", "Jin", "Kara"];
 
@@ -101,22 +112,27 @@ console.log(myFriends[5]);
 console.log(myFriends.length);
 console.log(myFriends[myFriends.length - 1]);
 
+myFriends.push("Sarah");
+console.log(myFriends);
 
+myFriends.shift();
+console.log(myFriends);
 
 
 // PART E: Objects
 
-// 1. Create an object about a person consisting of their name, age, location, hair color, and occupation. 
+// 1. Create an object about a person consisting of their name, location, age, hair color, and occupation. 
 
-// 2. Console log the object and inspect it in the console.
+// 2. Console log the object and inspect how it shows up in the console.
 
 // 3. Console log the person's name
 
-// 4. Console log the 
+// 4. Console log the person's age
 
-let person = { name: "Beyonce", age: "Australia", lifespan: 15, color: "gray" };
+let person = { name: "Beyonce", location: "USA", age: 42, hair: "brown", occupation: "artist" };
 console.log(person);
-console.log(animal.species);
+console.log(person.name);
+console.log(person.age);
 
 
 
@@ -131,7 +147,7 @@ console.log(animal.species);
 
 // 4. Create an array of 5 fruits, and console log a random fruit in your array. You want to see the console logging different fruits when you refresh the page. (Tip: Remember array.length)
 
-// 5. Create and console log a message that says "Today's fruit is X". You want to see the message change to a different fruit when you refresh the page.
+// 5. Create and console log a message that says "Today's fresh fruit is X". You want to see the message change to a different fruit when you refresh the page.
 
 console.log(Math.random());
 console.log(Math.random() * 365);
@@ -140,17 +156,5 @@ console.log(Math.floor(Math.random() * 365));
 let fruits = ["apple", "orange", "grape", "kiwi", "watermelon"];
 console.log(fruits [Math.floor(Math.random() * fruits.length)]);
 
-console.log("Today's fruit is " + fruits [Math.floor(Math.random() * fruits.length)]);
+console.log("Today's fresh fruit is " + fruits [Math.floor(Math.random() * fruits.length)]);
 
-
-                    
-
-
-// Test
-let ageNumber = 45;
-let myAge = "I am " + ageNumber + " years old";
-console.log(myAge);
-
-let lottery = [12, 24, 50, 32, 80];
-let winner = "The winning number is " + lottery[Math.floor(Math.random() * lottery.length)];
-console.log(winner);
