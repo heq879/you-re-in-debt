@@ -94,7 +94,7 @@ console.log(Math.random())
 
 // 4. Console log the number of items in your array (Tip: use array.length)
 
-// 5. Console log the first friend in your array again, but this time us array.length instead of a set number
+// 5. Console log the last friend in your array again, but this time us array.length instead of a set number
 
 // 6. Console log a random friend in your array (Tip: You want to see the console logging different friends when you refresh the page)
 
