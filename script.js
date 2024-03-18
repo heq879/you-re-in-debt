@@ -121,7 +121,7 @@ console.log(myFriends);
 
 // PART E: Objects
 
-// 1. Create an object about a person consisting of their name, location, age, hair color, and occupation. 
+// 1. Create an object about a person consisting of their name, location, age, hair color, occupation, and whether they are a woman (with a boolean). 
 
 // 2. Console log the object and inspect how it shows up in the console.
 
@@ -129,10 +129,13 @@ console.log(myFriends);
 
 // 4. Console log the person's age
 
-let person = { name: "Beyonce", location: "USA", age: 42, hair: "brown", occupation: "artist" };
+// 5. Console log whether they are female or not
+
+let person = { name: "Beyonce", location: "USA", age: 42, hair: "brown", occupation: "artist", isWoman: true };
 console.log(person);
 console.log(person.name);
 console.log(person.age);
+console.log(person.isWoman);
 
 
 
