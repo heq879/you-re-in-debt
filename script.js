@@ -92,8 +92,6 @@ console.log(38562 % 71);
 
 // 5. Console log the last friend in your array again, but this time us array.length instead of a set number
 
-// 6. Console log a random friend in your array (Tip: You want to see the console logging different friends when you refresh the page)
-
 
 let myFriends = ["John", "Anne", "Shiv", "Esra", "Jin", "Kara"];
 
@@ -109,12 +107,14 @@ console.log(myFriends[Math.floor(Math.random() * myFriends.length)]);
 
 // PART E: Objects
 
-// 1. 
+// 1. Create an object about a person consisting of their name, age, location, hair color, and occupation. 
 
+// 2. Console log the object and inspect it in the console.
 
+// 3. Console log the person's name
 
+// 4. Console log the 
 
-// Test 2
 let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
 console.log(animal);
 console.log(animal.species);
@@ -129,6 +129,9 @@ console.log(animal.species);
 // 2. Console log a random number between 0 and 365.
 
 console.log(Math.random())
+
+// 6. Console log a random friend in your array (Tip: You want to see the console logging different friends when you refresh the page)
+
 
                     
 
