@@ -72,15 +72,12 @@ console.log("I don't like " + myDish);
 
 // 4. What is the remainder when you divide 38562 by 71? Console log using a single equation.
 
-
 let name = "Florence";
 let lastname = "Welch";
 console.log(name + " " + lastname);
 
 console.log(2024 - 1962);
-
 console.log(5 * 8);
-
 console.log(38562 % 71);
 
 
