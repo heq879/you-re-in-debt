@@ -119,6 +119,7 @@ let winner = "The winning number is " + lottery[Math.floor(Math.random() * lotte
 console.log(winner);
 
 
+
                     
                     
                     
