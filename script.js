@@ -56,19 +56,15 @@ console.log("I don't like " + myDish);
 
 
 
-// PART C: Math
+// PART C: MATH
 
 // 1. Create 2 different variables for the name and last name of a celebrity you like. Console log a message showing their full name using these variables. (Tip: you can add spaces in addition to letters in a string, or as an additional empty string)
 
 // 2. Console log your age by subtracting your birth year from this year.
 
-// 3. What is the remainder when you divide 38,562 by 71? Console log using a single equation.
+// 3. How many classes have you taken this semester so far? Multiply your weekly number of classes with 8 (weeks). Console log it.
 
-// 4. Console log a random number between 0 and 1.
-
-// 5. Console log a random number between 0 and 365.
-
-// 6. 
+// 4. What is the remainder when you divide 38562 by 71? Console log using a single equation.
 
 
 let name = "Florence";
@@ -77,9 +73,9 @@ console.log(name + " " + lastname);
 
 console.log(2024 - 1962);
 
-console.log(38562 % 71);
+console.log(5 * 8);
 
-console.log(Math.random())
+console.log(38562 % 71);
 
 
 
@@ -109,6 +105,34 @@ console.log(myFriends[myFriends.length - 1]);
 console.log(myFriends[Math.floor(Math.random() * myFriends.length)]);
 
 
+
+
+// PART E: Objects
+
+// 1. 
+
+
+
+
+// Test 2
+let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
+console.log(animal);
+console.log(animal.species);
+
+
+
+
+// PART F                   
+  
+// 1. Console log a random number between 0 and 1.
+
+// 2. Console log a random number between 0 and 365.
+
+console.log(Math.random())
+
+                    
+
+
 // Test
 let ageNumber = 45;
 let myAge = "I am " + ageNumber + " years old";
@@ -117,13 +141,3 @@ console.log(myAge);
 let lottery = [12, 24, 50, 32, 80];
 let winner = "The winning number is " + lottery[Math.floor(Math.random() * lottery.length)];
 console.log(winner);
-
-
-// Test 2
-let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
-console.log(animal);
-console.log(animal.species);
-
-                    
-                    
-                    
