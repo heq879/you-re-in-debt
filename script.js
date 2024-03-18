@@ -100,7 +100,6 @@ console.log(myFriends[0]);
 console.log(myFriends[5]);
 console.log(myFriends.length);
 console.log(myFriends[myFriends.length - 1]);
-console.log(myFriends[Math.floor(Math.random() * myFriends.length)]);
 
 
 
@@ -115,22 +114,33 @@ console.log(myFriends[Math.floor(Math.random() * myFriends.length)]);
 
 // 4. Console log the 
 
-let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
-console.log(animal);
+let person = { name: "Beyonce", age: "Australia", lifespan: 15, color: "gray" };
+console.log(person);
 console.log(animal.species);
 
 
 
 
-// PART F                   
+// PART F: More math!                  
   
 // 1. Console log a random number between 0 and 1.
 
 // 2. Console log a random number between 0 and 365.
 
-console.log(Math.random())
+// 3. Console log a random integer (whole number) between 0 and 365.
 
-// 6. Console log a random friend in your array (Tip: You want to see the console logging different friends when you refresh the page)
+// 4. Create an array of 5 fruits, and console log a random fruit in your array. You want to see the console logging different fruits when you refresh the page. (Tip: Remember array.length)
+
+// 5. Create and console log a message that says "Today's fruit is X". You want to see the message change to a different fruit when you refresh the page.
+
+console.log(Math.random());
+console.log(Math.random() * 365);
+console.log(Math.floor(Math.random() * 365));
+
+let fruits = ["apple", "orange", "grape", "kiwi", "watermelon"];
+console.log(fruits [Math.floor(Math.random() * fruits.length)]);
+
+console.log("Today's fruit is " + fruits [Math.floor(Math.random() * fruits.length)]);
 
 
                     
