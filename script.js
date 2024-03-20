@@ -30,13 +30,6 @@ console.log(thisExercise);
 
 // 7. An object about a movie that consists of its title, director, year, and if it's a favorite of yours or not (using a boolean)
 
-let myName = "Defne";
-let classes = 5;
-let pets = "1";
-let inClass = true;
-let favoriteAnimals = ["Poor Things", "Oppenheimer", "Barbie", "Killers of the Flower Moon", "American Fiction"];
-let myNumbers = [5, 10, 15, 20, 25];
-let myObject = {title: "Poor Things", director: "Yorgos Lanthimos", year: 2024, favorite: true};
 
 
 
@@ -50,15 +43,6 @@ let myObject = {title: "Poor Things", director: "Yorgos Lanthimos", year: 2024, 
 
 // 4. Console log another message "I don't like [your food]" using a string and your food variable. The goal is to see the new value of your variable show up as a part of the message.
 
-let myDish = "noodles";
-console.log(myDish);
-
-console.log("My favorite food is " + myDish);
-
-myDish = "asparagus";
-console.log(myDish);
-
-console.log("I don't like " + myDish);
 
 
 
@@ -71,14 +55,6 @@ console.log("I don't like " + myDish);
 // 3. How many classes have you taken this semester so far? Multiply your weekly number of classes with 8 (weeks). Console log it.
 
 // 4. What is the remainder when you divide 38562 by 71? Console log using a single equation.
-
-let name = "Florence";
-let lastname = "Welch";
-console.log(name + " " + lastname);
-
-console.log(2024 - 1962);
-console.log(5 * 8);
-console.log(38562 % 71);
 
 
 
@@ -103,17 +79,7 @@ console.log(38562 % 71);
 
 let myFriends = ["John", "Anne", "Shiv", "Esra", "Jin", "Kara"];
 
-console.log(myFriends);
-console.log(myFriends[0]);
-console.log(myFriends[5]);
-console.log(myFriends.length);
-console.log(myFriends[myFriends.length - 1]);
 
-myFriends.push("Sarah");
-console.log(myFriends);
-
-myFriends.shift();
-console.log(myFriends);
 
 
 // PART E: Objects
@@ -127,12 +93,6 @@ console.log(myFriends);
 // 4. Console log the person's age
 
 // 5. Console log whether they are female or not
-
-let person = { name: "Beyonce", location: "USA", age: 42, hair: "brown", occupation: "artist", isWoman: true };
-console.log(person);
-console.log(person.name);
-console.log(person.age);
-console.log(person.isWoman);
 
 
 
@@ -149,12 +109,5 @@ console.log(person.isWoman);
 
 // 5. Create and console log a message that says "Today's fresh fruit is X". You want to see the message change to a different fruit when you refresh the page.
 
-console.log(Math.random());
-console.log(Math.random() * 365);
-console.log(Math.floor(Math.random() * 365));
 
-let fruits = ["apple", "orange", "grape", "kiwi", "watermelon"];
-console.log(fruits [Math.floor(Math.random() * fruits.length)]);
-
-console.log("Today's fresh fruit is " + fruits [Math.floor(Math.random() * fruits.length)]);
 
