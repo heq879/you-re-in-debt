@@ -77,8 +77,6 @@ console.log(thisExercise);
 
 // 8. Bonus: Remove the first person in your array, then console log your array to see it updated.
 
-let myFriends = ["John", "Anne", "Shiv", "Esra", "Jin", "Kara"];
-
 
 
 
@@ -105,7 +103,7 @@ let myFriends = ["John", "Anne", "Shiv", "Esra", "Jin", "Kara"];
 
 // 3. Console log a random integer (whole number) between 0 and 365.
 
-// 4. Create an array of 5 fruits, and console log a random fruit in your array. You want to see the console logging different fruits when you refresh the page. (Tip: Remember array.length)
+// 4. Create an array of 8 fruits, and console log a random fruit in your array. You want to see the console logging different fruits when you refresh the page. (Tip: Remember array.length)
 
 // 5. Create and console log a message that says "Today's fresh fruit is X". You want to see the message change to a different fruit when you refresh the page.
 
