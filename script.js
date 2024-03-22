@@ -14,6 +14,12 @@ let animals = ["cat", "dog", "bird", "snake", "lion"];
 console.log(animals);
 console.log(animals[0]);
 console.log(animals.length); 
+animals.push("dragon");
+console.log(animals);
+
+let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
+console.log(animal);
+console.log(animal.species);
 
 
 // PART A: Defining variables – Define a variable for each:
