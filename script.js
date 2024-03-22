@@ -10,15 +10,10 @@ console.log("Hello world");
 let thisExercise = "Let's learn Javascript!";
 console.log(thisExercise);
 
-let myAge = 20;
-console.log(myAge);
-myAge = 21;
-console.log(myAge);
-
-let myVariable = "Manhattan";
-console.log("I live in " + myVariable);
-
-
+let animals = ["cat", "dog", "bird", "snake", "lion"];
+console.log(animals);
+console.log(animals[0]);
+console.log(animals.length); 
 
 
 // PART A: Defining variables – Define a variable for each:
