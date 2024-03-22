@@ -23,6 +23,10 @@ let myVariable = "Manhattan";
 console.log(myVariable);
 console.log("I live in " + myVariable);
 
+let animals = ["cat", "dog", "bird", "snake", "lion"];
+console.log(animals);
+console.log(animals[0]);
+
 
 
 
