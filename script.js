@@ -7,22 +7,10 @@ console.log("Hello world");
 
 // Answer to the best of your abilities & console log for each of the questions below.
 
-let thisExercise = "Let's learn Javascript!";
+let thisExercise = "Let's learn JavaScript!";
 console.log(thisExercise);
 
-let animals = ["cat", "dog", "bird", "snake", "lion"];
-console.log(animals);
-console.log(animals[0]);
-console.log(animals.length); 
-animals.push("dragon");
-console.log(animals);
 
-let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
-console.log(animal);
-console.log(animal.species);
-
-let x = Math.floor(Math.random() * 5);
-console.log(x);
 
 
 // PART A: Defining variables – Define a variable for each:
