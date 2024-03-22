@@ -19,12 +19,14 @@ console.log(thisExercise);
 thisExercise = "A JS exercise";
 console.log(thisExercise);
 
+let myVariable = "Manhattan";
+console.log(myVariable);
+console.log("I live in " + myVariable);
 
 
 
 
-
-// PART A: Defining variables – Define a variable for each:
+// PART A: Defining variables – Define a variable for each and console log the variable:
 
 // 1. A string with your name
 
