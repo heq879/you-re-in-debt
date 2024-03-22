@@ -21,6 +21,9 @@ let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray
 console.log(animal);
 console.log(animal.species);
 
+let x = Math.floor(Math.random() * 5);
+console.log(x);
+
 
 // PART A: Defining variables – Define a variable for each:
 
