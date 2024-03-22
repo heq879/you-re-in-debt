@@ -1,13 +1,9 @@
 // Open up your console to use throughout the exercise to check if things are working
 
 console.log("Hello world");
-console.log("Hi");
+console.log("Welcome to Core 2 Interaction Lab!");
 
-
-
-
-// Answer to the best of your abilities & console log for each of the questions below.
-
+// Examples we demoed in class below:
 
 let myAge = 20;
 console.log(myAge);
@@ -37,6 +33,11 @@ console.log(animal);
 console.log(animal.species);
 console.log(animal.lifespan);
 
+
+
+
+
+// Answer to the best of your abilities & console log for each of the questions below.
 
 
 // PART A: Defining variables – Define a variable for each and console log the variable:
