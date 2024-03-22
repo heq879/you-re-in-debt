@@ -26,7 +26,16 @@ console.log("I live in " + myVariable);
 let animals = ["cat", "dog", "bird", "snake", "lion"];
 console.log(animals);
 console.log(animals[0]);
+console.log(animals[4]);
+console.log(animals.length);
+console.log(animals[animals.length - 1]); 
+animals.push("panda");
+console.log(animals);
 
+let animal = { species: "koala", origin: "Australia", lifespan: 15, color: "gray" };
+console.log(animal);
+console.log(animal.species);
+console.log(animal.lifespan);
 
 
 
