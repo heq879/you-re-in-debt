@@ -8,8 +8,18 @@ console.log("Hi");
 
 // Answer to the best of your abilities & console log for each of the questions below.
 
-// let thisExercise = "Let's learn JavaScript!";
-// console.log(thisExercise);
+
+let myAge = 20;
+console.log(myAge);
+myAge = 35;
+console.log(myAge);
+
+let thisExercise = "Let's learn JavaScript!";
+console.log(thisExercise);
+thisExercise = "A JS exercise";
+console.log(thisExercise);
+
+
 
 
 
