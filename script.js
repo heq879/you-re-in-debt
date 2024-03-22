@@ -1,14 +1,15 @@
 // Open up your console to use throughout the exercise to check if things are working
 
 console.log("Hello world");
+console.log("Hi");
 
 
 
 
 // Answer to the best of your abilities & console log for each of the questions below.
 
-let thisExercise = "Let's learn JavaScript!";
-console.log(thisExercise);
+// let thisExercise = "Let's learn JavaScript!";
+// console.log(thisExercise);
 
 
 
