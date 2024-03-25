@@ -17,18 +17,31 @@ console.log("Hello world");
 
 // 4. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your header to apply the existing CSS rule to it.
 
-// 5. In CSS, there is a rule with the selector "gray". Using JS, apply this CSS rule to all your paragraphs.
-
-// 6. Using only JS, add a new paragraph element with additional content related to your topic to the page
-
 document.querySelector("h1").innerHTML = "New Title";
 document.querySelector("img").src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/koala.png?v=1711322726731";
 document.querySelector("h1").style.fontSize = "50px";
 document.querySelector("h1").classList.add("blue");
-document.querySelectorAll("p").classList.add("gray");
+
+
+
+// ???
+// 5. Using only JS, add a new paragraph element with additional content related to your topic to the page
 
 
 
 // PART X
 
-// 1. Using event listeners and functions, make the color of the heading change on hover (mousein)
+// 1. Using event listeners and functions, make the copy of the title change once you click on it
+// (Tip: this is )
+
+// 2. Inside of your function, add one more line that makes the color of the title change on click as well
+
+// 3. 
+
+let titleText = document.querySelector('h1');
+titleText.addEventListener('click', myFunction);
+
+function myFunction() {
+     titleText.innerHTML = "Third title";
+     titleText.style.color = "orange";
+}
