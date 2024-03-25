@@ -4,20 +4,50 @@ console.log("Hello world");
 
 
 
-// PART A: 
+// PART A: Conditional statements
 
-// 1. Create a variable about whether it's the weekend or not (use a boolean)
+// 2. Create a variable with your name
 
-// 2. Write a conditional if else statement that console logs "It's the weekend :)" if it is, and console logs "It's not the weekend :(" if it's not
+// 1. Write a conditional if statement that console logs "My name is [your name]" when your variable is your name. Try to reuse your variable in your message as well, instead of just typing your name
+
+// 3. Create a variable about whether it's the weekend or not (use a boolean)
+
+// 4. Write a conditional if else statement that console logs "It's the weekend :)" if it is, and console logs "It's not the weekend :(" if it's not. Try changing your variable to check if both states work.
+
+// 5. Create a variable with your age. Write a conditional else if statement that console logs "You are old enough" if the age
+
+
+let myName = "Defne";
+
+if (myName == "Defne") {
+  console.log("My name is " + myName)
+}
 
 
 let itIsTheWeekend = false;
 
-if (itIsTheWeekend == tu) {
+if (itIsTheWeekend == true) {
   console.log("It's the weekend :)")
 } else {
   console.log("It's not the weekend :(")
 }
+
+
+let myAge = 20;
+
+if (myAge > 21) {
+  console.log("You are old enough")
+} else if (myAge < 21) {
+  console.log("You are underage")
+} else if (myAge == 21) {
+  console.log("Congrats on turning 21!")
+}
+
+
+
+// PART B: 
+
+
 
 
 // PART X: Adding & changing content
