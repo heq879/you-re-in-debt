@@ -115,6 +115,8 @@ function imageChange() {
 }
 
 
-if ('mousein', myImage) {
-  
-}
+// if ('click', myImage) {
+//   document.querySelector("body").style.backgroundColor = "gainsboro"
+// } else {
+//   document.querySelector("body").style.backgroundColor = "azure"
+// }
