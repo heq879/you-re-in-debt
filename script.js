@@ -42,13 +42,19 @@ if (myAge > 21) {
 
 // 1. Write a function that console logs a message. Run the function to see the message in the console.
 
-// 2. Write a more dynamic function that has an argument inside of the parentheses. Have it console log "I"
+// 2. Write a more dynamic function that has an argument inside of the parentheses. Have it console log "I love the movie [movie name]". Run the function 3 different times to console log 3 versions of the message.
 
 function myMessage() {
-  console.log("Hello there")
+  console.log("Hello there");
 };
 myMessage();
 
+function myMovie(movieName) {
+  console.log("I love the movie " + movieName);
+};
+myMovie("Pulp Fiction");
+myMovie("Poor Things");
+myMovie("Dune");
 
 
 
