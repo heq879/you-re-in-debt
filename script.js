@@ -4,28 +4,22 @@ console.log("Hello world");
 
 
 
-// PART A: Conditional statements
+// PART A: Conditionals 
 
-// 2. Create a variable with your name
+// 1. Create a variable with your name. Write a conditional if statement that console logs "My name is [your name]" when your variable is your name. Try to reuse your variable in your message as well, instead of just typing your name
 
-// 1. Write a conditional if statement that console logs "My name is [your name]" when your variable is your name. Try to reuse your variable in your message as well, instead of just typing your name
+// 2. Create a variable about whether it's the weekend or not (use a boolean). Write a conditional if else statement that console logs "It's the weekend :)" if it is, and console logs "It's not the weekend :(" if it's not. Try changing your variable to check if both states work.
 
-// 3. Create a variable about whether it's the weekend or not (use a boolean)
-
-// 4. Write a conditional if else statement that console logs "It's the weekend :)" if it is, and console logs "It's not the weekend :(" if it's not. Try changing your variable to check if both states work.
-
-// 5. Create a variable with your age. Write a conditional else if statement that console logs "You are old enough" if the age
+// 3. Create a variable with an age. Write a conditional else if statement that console logs "You are old enough" if the age is ove 21, "You are underage" if the age is under 21, and "Congrats on turning 21!" if the age is 21.
 
 
 let myName = "Defne";
-
 if (myName == "Defne") {
   console.log("My name is " + myName)
 }
 
 
 let itIsTheWeekend = false;
-
 if (itIsTheWeekend == true) {
   console.log("It's the weekend :)")
 } else {
@@ -34,7 +28,6 @@ if (itIsTheWeekend == true) {
 
 
 let myAge = 20;
-
 if (myAge > 21) {
   console.log("You are old enough")
 } else if (myAge < 21) {
@@ -45,9 +38,18 @@ if (myAge > 21) {
 
 
 
-// PART B: 
+// PART B: Functions
 
+// 1. Write a function that console logs a message. Run the function to see the message in the console.
 
+// 
+
+function myMessage() {
+  console.log("Hello there")
+};
+myMessage();
+
+let my
 
 
 // PART X: Adding & changing content
