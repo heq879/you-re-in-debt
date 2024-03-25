@@ -58,23 +58,27 @@ myMovie("Dune");
 
 
 
-// PART X: Adding & changing content
+// PART C: The DOM
 
 // 1. Only using JS, change the copy of the heading.
 
-// 2. Only usign JS, change the image.
+// 2. Only using JS, change the image.
 
 // 3. Only using JS, change the font size of your header to be larger
 
 // 4. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your header to apply the existing CSS rule to it.
 
+// 5. In CSS, add a rule to the class ".round" that is supposed to round corners. Add this class to the image
+
 document.querySelector("h1").innerHTML = "New Title";
 document.querySelector("img").src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/koala.png?v=1711322726731";
-document.querySelector("h1").style.fontSize = "50px";
+document.querySelector("h1").style.fontSize = "40px";
 document.querySelector("h1").classList.add("blue");
+document.querySelector("img").classList.add("round");
 
-// ???
-// 5. Using only JS, add a new paragraph element with additional content related to your topic to the page
+
+// ??? to be added to a section (createElement & appendChild)
+// 6. Using only JS, add a new paragraph element with additional content related to your topic to the page
 
 
 
