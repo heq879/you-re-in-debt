@@ -42,14 +42,14 @@ if (myAge > 21) {
 
 // 1. Write a function that console logs a message. Run the function to see the message in the console.
 
-// 
+// 2. Write a more dynamic function that has an argument inside of the parentheses. Have it console log "I"
 
 function myMessage() {
   console.log("Hello there")
 };
 myMessage();
 
-let my
+
 
 
 // PART X: Adding & changing content
