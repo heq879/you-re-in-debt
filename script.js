@@ -68,9 +68,9 @@ myMovie("Dune");
 
 // 4. Only using JS, change the background color of the page
 
-// 5. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your header to apply the existing CSS rule to it.
+// 5. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your heading. (You may change the color/name)
 
-// 6. In CSS, add a rule to the class ".round" that is supposed to round corners. Add this class to the image
+// 6. In CSS, add a new rule that rounds corners to a new class. Add this class to the image.
 
 document.querySelector("h1").innerHTML = "New Title";
 document.querySelector("img").src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/koala.png?v=1711322726731";
