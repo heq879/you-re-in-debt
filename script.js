@@ -66,13 +66,16 @@ myMovie("Dune");
 
 // 3. Only using JS, change the font size of your header to be larger
 
-// 4. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your header to apply the existing CSS rule to it.
+// 4. Only using JS, change the background color of the page
 
-// 5. In CSS, add a rule to the class ".round" that is supposed to round corners. Add this class to the image
+// 5. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your header to apply the existing CSS rule to it.
+
+// 6. In CSS, add a rule to the class ".round" that is supposed to round corners. Add this class to the image
 
 document.querySelector("h1").innerHTML = "New Title";
 document.querySelector("img").src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/koala.png?v=1711322726731";
 document.querySelector("h1").style.fontSize = "40px";
+document.querySelector("body").style.backgroundColor = "azure";
 document.querySelector("h1").classList.add("blue");
 document.querySelector("img").classList.add("round");
 
