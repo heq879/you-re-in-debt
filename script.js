@@ -95,6 +95,8 @@ document.querySelector("img").classList.add("round");
 
 // 3. Once you click on the button, have the image change to a different image.
 
+// 4. 
+
 let titleText = document.querySelector('h1');
 titleText.addEventListener('click', myFunction);
 
@@ -105,9 +107,14 @@ function myFunction() {
 
 
 let myImage = document.querySelector("img");
-let myButton = document.querySelector("button");
+let myButton = document.querySelector("#changeImage");
 myButton.addEventListener('click', imageChange);
 
 function imageChange() {
   myImage.src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/nycimage.png?v=1711325220939";
+}
+
+
+if ('mousein', myImage) {
+  
 }
