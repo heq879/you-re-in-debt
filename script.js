@@ -10,7 +10,7 @@ console.log("Hello world");
 
 // 2. Create a variable about whether it's the weekend or not (use a boolean). Write a conditional if else statement that console logs "It's the weekend :)" if it is, and console logs "It's not the weekend :(" if it's not. Try changing your variable to check if both states work.
 
-// 3. Create a variable with an age. Write a conditional else if statement that console logs "You are old enough" if the age is ove 21, "You are underage" if the age is under 21, and "Congrats on turning 21!" if the age is 21.
+// 3. Create a variable with an age (use a number). Write a conditional else if statement that console logs "You are old enough" if the age is ove 21, "You are underage" if the age is under 21, and "Congrats on turning 21!" if the age is 21.
 
 
 let myName = "Defne";
@@ -42,7 +42,9 @@ if (myAge > 21) {
 
 // 1. Write a function that console logs a message. Run the function to see the message in the console.
 
-// 2. Write a more dynamic function that has an argument inside of the parentheses. Have it console log "I love the movie [movie name]". Run the function 3 different times to console log 3 versions of the message.
+// 2. Write a more dynamic function that has a parameter inside of the parentheses. Have it console log "I love the movie [movie name]". Use the argument to populate the movie name. Run the function 3 different times to console log 3 versions of the message.
+
+// 3. Write a function with parameters that does a mathematical calculation and returns an answer. Create 3 variable that holds your function and gives its parameters different values. Console log each of these variables to see each of their values.
 
 function myMessage() {
   console.log("Hello there");
@@ -56,6 +58,17 @@ myMovie("Pulp Fiction");
 myMovie("Poor Things");
 myMovie("Dune");
 
+function answer(num1, num2) {
+  return num1 * num2;
+}
+
+let myResult = answer(3, 7);
+let mySecondResult = answer(45, 87);
+let myThirdResult = answer(45, 87);
+
+console.log(myResult);
+console.log(mySecondResult);
+console.log(myResult);
 
 
 // PART C: The DOM
