@@ -91,10 +91,9 @@ document.querySelector("body").style.backgroundColor = "lightyellow";
 
 // 6. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your paragraph. (You may change the color/name)
 document.querySelector("h1").classList.add("blue");
+
 // 7. In CSS, add a new rule that rounds corners to a new class. Using JS, add this class to the image.
 document.querySelector("img").classList.add("roundedcorners");
-
-
 
 // PART D: Events
 
