@@ -39,11 +39,28 @@ if (myAge > 21) {
 // PART B: Functions
 
 // 1. Write a function that console logs a message. Run the function to see the message in the console.
+function message (ok) {
+  console.log ("I'm so confused."+ ok);
+}
 
+message ("Huh?");
 
 // 2. Write a more dynamic function that has a parameter inside of the parentheses. Have it console log "I love the movie [movie name]". Use the argument to populate the movie name. Run the function 3 different times to console log 3 versions of the message.
 
+function loveMovie(movieName) {
+    console.log("I love the movie " + movieName);
+}
+
+loveMovie("Fantastic Mr.Fox");
+loveMovie("Coraline");
+loveMovie("The House");
+
 // 3. Write a function with parameters that does a mathematical calculation and returns an answer. Create 3 variable that holds your function and gives its parameters different values. Console log each of these variables to see each of their values.
+
+function calculate(num1, num2) {
+    return num1 + num2;
+}
+
 
 
 
