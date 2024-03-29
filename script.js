@@ -57,12 +57,17 @@ loveMovie("The House");
 
 // 3. Write a function with parameters that does a mathematical calculation and returns an answer. Create 3 variable that holds your function and gives its parameters different values. Console log each of these variables to see each of their values.
 
-function calculate(num1, num2) {
-    return num1 + num2;
+function add(number1, number2, number3) {
+    return number1 + number2 + number3;
 }
 
+var result1 = add(3,6,9);
+var result2 = add (4,8,12);
+var result3 = add(5,15,20);
 
-
+console.log("Ans1:", result1);
+console.log("Ans2:", result2);
+console.log("Ans3:", result3);
 
 
 // PART C: The DOM
