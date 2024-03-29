@@ -74,7 +74,11 @@ console.log("Ans3:", result3);
 
 // 1. Only using JS, change the copy of the heading.
 
+document.querySelector("h1").innerHTML = "New Heading";
+
 // 2. Only using JS, change the image.
+
+document.querySelector("#myImage").src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/koala.png?v=1711322726731";
 
 // 3. Only using JS, change the font size of the first paragraph to be larger
 
