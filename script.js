@@ -1,4 +1,4 @@
-// Open up your console to use throughout the exercise to check if things are working
+// Don't forget to use your console while working on the exercise!
 
 console.log("Hello world");
 
