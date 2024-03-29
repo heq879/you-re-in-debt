@@ -78,18 +78,21 @@ document.querySelector("h1").innerHTML = "New Heading";
 
 // 2. Only using JS, change the image.
 
-document.querySelector("#myImage").src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/koala.png?v=1711322726731";
+document.querySelector("img").src = "https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/koala.png?v=1711322726731";
 
 // 3. Only using JS, change the font size of the first paragraph to be larger
+document.querySelector("p").style.fontSize = "45px";
 
 // 4. Only using JS, change the font of the second paragraph
+document.querySelector("#p2").style.fontFamily = "Arial";
 
 // 5. Only using JS, change the background color of the page
+document.querySelector("body").style.backgroundColor = "lightyellow";
 
 // 6. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your paragraph. (You may change the color/name)
-
+document.querySelector("h1").classList.add("blue");
 // 7. In CSS, add a new rule that rounds corners to a new class. Using JS, add this class to the image.
-
+document.querySelector("img").classList.add("roundedcorners");
 
 
 
