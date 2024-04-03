@@ -74,7 +74,7 @@ console.log("Ans3:", result3);
 
 // 1. Only using JS, change the copy of the heading.
 
-document.querySelector("h1").innerHTML = "New Heading";
+document.querySelector("h1").innerHTML = "Dlrow Olleh ";
 
 // 2. Only using JS, change the image.
 
@@ -87,7 +87,7 @@ document.querySelector("p").style.fontSize = "45px";
 document.querySelector("#p2").style.fontFamily = "Arial";
 
 // 5. Only using JS, change the background color of the page
-document.querySelector("body").style.backgroundColor = "lightyellow";
+document.querySelector("body").style.backgroundColor = "darkblue";
 
 // 6. In CSS, there is a rule with the selector "blue". Using JS, apply this CSS rule to your paragraph. (You may change the color/name)
 document.querySelector("h1").classList.add("blue");
@@ -98,6 +98,15 @@ document.querySelector("img").classList.add("roundedcorners");
 // PART D: Events
 
 // 1. Using event listeners and functions, make the copy of the title change once you click on it
+var title = document.querySelector("h1");
+
+function changeTitle() {
+    title.innerHTML = "Hello World";
+    title.style.color = "darkred"; // For example, changing color to red
+}
+
+title.addEventListener("click", changeTitle);
+
 
 // 2. Inside of your existing function, add one more line that makes the color of the title change on the same click as well
 
