@@ -100,7 +100,6 @@ document.querySelector("img").classList.add("roundedcorners");
 // 1. Using event listeners and functions, make the copy of the title change once you click on it
 
 // 2. Inside of your existing function, add one more line that makes the color of the title change on the same click as well
-
 let button= document.querySelector("h1");
 button.addEventListener("click",changeTitle);
 
@@ -110,5 +109,9 @@ function changeTitle(){
 }
 
 // 3. Once you click on the button, have the image change to a different image.
-let buttons = document.querySelector("#img");
-buttons.addEventListener("click",theFunction);
+let buttons = document.querySelector("#changeImage");
+buttons.addEventListener("click",changeImage);
+
+function changeImage(){
+  document.querySelector("img").src="https://cdn.glitch.global/c61c7ecd-c992-456b-8136-a7497de5a768/mac.png?v=1711322523100";
+}
