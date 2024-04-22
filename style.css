@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "OpenSans-regular";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/OpenSans-VariableFont_wdth%2Cwght.ttf?v=1713823871356");
+}
+
+body{
+  background-color:white;
+  padding:15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows: auto; /* auto rows */
+  gap: 15px; /* gap between grid items */
+  margin: 15px;
+}
+
+h1{
+  color: black;
+  font-family: "OpenSans-regular", sans-serif;
+  font-weight:bold;
+  font-size: 90px;
+  margin: 20px;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
+  text-align: center;
+}
