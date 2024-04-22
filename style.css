@@ -41,8 +41,10 @@ h1{
   color: black;
   font-family: "FreeMono", serif;
   font-size: 24px;
-  margin: 25px;
+  margin: 40px;
   grid-column: 2 / span 2;
   grid-row: 2 / span 1;
   text-align: center;
 }
+
+
