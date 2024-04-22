@@ -53,4 +53,27 @@ h1{
   width: 100%; 
 }
 
+.order{
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+  margin: 25px;
+  grid-column: 1 ;
+  grid-row: 3;
+  text-align: left;
+}
+
+.price{
+   color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+  margin: 25px;
+  grid-column: 4;
+  grid-row: 3;
+  text-align: right;
+}
+
+
+
+
 
