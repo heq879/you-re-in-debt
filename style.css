@@ -3,6 +3,16 @@
   src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/OpenSans-VariableFont_wdth%2Cwght.ttf?v=1713823871356");
 }
 
+@font-face {
+  font-family: "FreeMono";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeMono.ttf?v=1713824397792");
+}
+
+@font-face {
+  font-family: "FreeSans";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeSans.ttf?v=1713824419153");
+}
+
 body{
   background-color:white;
   padding:15px;
@@ -20,9 +30,19 @@ h1{
   color: black;
   font-family: "OpenSans-regular", sans-serif;
   font-weight:bold;
-  font-size: 90px;
-  margin: 20px;
+  font-size: 80px;
+  margin: 25px;
   grid-column: 2 / span 2;
   grid-row: 1 / span 1;
+  text-align: center;
+}
+
+.subtitle{
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+  margin: 25px;
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
   text-align: center;
 }
