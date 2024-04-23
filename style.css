@@ -74,61 +74,6 @@ h1 {
   text-align: center;
 }
 
-.weekblock1 {
-  grid-column: 1 / span 1;
-  grid-row: 4 / span 1;
-  background-color: black;
-  border-radius: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.weekblock2 {
-  grid-column: 1 / span 1;
-  grid-row: 5 / span 1;
-  background-color: black;
-  border-radius: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.weekblock3 {
-  grid-column: 1 / span 1;
-  grid-row: 6 / span 1;
-  background-color: black;
-  border-radius: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.weekblock4 {
-  grid-column: 1 / span 1;
-  grid-row: 7 / span 1;
-  background-color: black;
-  border-radius: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.weekblock5 {
-  grid-column: 1 / span 1;
-  grid-row: 8 / span 1;
-}
-
-.weekblock6 {
-  grid-column: 1 / span 1;
-  grid-row: 9 / span 1;
-}
-
-.weekblock7 {
-  grid-column: 1 / span 1;
-  grid-row: 10 / span 1;
-}
-
 .weekblock1,
 .weekblock2,
 .weekblock3,
@@ -148,4 +93,145 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.weekblock1 {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.weektext1{
+  grid-column: 2 / span 2;
+  grid-row: 4 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+.weekblock2 {
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.weektext2{
+  grid-column: 2 / span 2;
+  grid-row: 5 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+.weekblock3 {
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
+}
+
+.weektext3{
+  grid-column: 2 / span 2;
+  grid-row: 6 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+.weekblock4 {
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 1;
+}
+
+.weektext4{
+  grid-column: 2 / span 2;
+  grid-row: 7 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+.weekblock5 {
+  grid-column: 1 / span 1;
+  grid-row: 8 / span 1;
+}
+
+.weektext5{
+  grid-column: 2 / span 2;
+  grid-row: 8 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+
+.weekblock6 {
+  grid-column: 1 / span 1;
+  grid-row: 9 / span 1;
+}
+
+.weektext6{
+  grid-column: 2 / span 2;
+  grid-row: 9 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+.weekblock7 {
+  grid-column: 1 / span 1;
+  grid-row: 10 / span 1;
+}
+
+.weektext7{
+  grid-column: 2 / span 2;
+  grid-row: 10 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+.weekblock1:hover {
+  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/monday.png?v=1713833166506");
+}
+
+.weekblock2:hover {
+  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/tuesday.png?v=1713833166367");
+}
+
+.weekblock3:hover {
+  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/wednesday.png?v=1713833166175");
+}
+
+.weekblock4:hover {
+  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/thursday.png?v=1713833165844");
+}
+
+.weekblock5:hover {
+  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/friday.png?v=1713833165535");
+}
+
+.weekblock6:hover {
+  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/saturday.png?v=1713833165327");
+}
+
+.weekblock7:hover {
+  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/sunday.png?v=1713833164996");
 }
