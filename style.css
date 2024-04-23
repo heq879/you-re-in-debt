@@ -95,14 +95,13 @@ h1 {
   align-items: center;
 }
 
-.weekblock1 {
-  grid-column: 1 / span 1;
-  grid-row: 4 / span 1;
-}
-
-.weektext1{
-  grid-column: 2 / span 2;
-  grid-row: 4 / span 1;
+.weektext1,
+.weektext2,
+.weektext3,
+.weektext4,
+.weektext5,
+.weektext6,
+.weektext7 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,102 +109,131 @@ h1 {
   font-family: "FreeMono", serif;
   font-size: 24px;
 }
+
+.weekprice1,
+.weekprice2,
+.weekprice3,
+.weekprice4,
+.weekprice5,
+.weekprice6,
+.weekprice7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+}
+
+.weekblock1 {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.weektext1 {
+  grid-column: 2 / span 2;
+  grid-row: 4 / span 1;
+}
+
+.weekprice1{
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 1; 
+}
+
 
 .weekblock2 {
   grid-column: 1 / span 1;
   grid-row: 5 / span 1;
 }
 
-.weektext2{
+.weektext2 {
   grid-column: 2 / span 2;
   grid-row: 5 / span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 24px;
 }
+
+.weekprice2{
+  grid-column: 4 / span 1;
+  grid-row: 5 / span 1; 
+}
+
 
 .weekblock3 {
   grid-column: 1 / span 1;
   grid-row: 6 / span 1;
 }
 
-.weektext3{
+.weektext3 {
   grid-column: 2 / span 2;
   grid-row: 6 / span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 24px;
 }
+
+.weekprice3{
+  grid-column: 4 / span 1;
+  grid-row: 6 / span 1; 
+}
+
 
 .weekblock4 {
   grid-column: 1 / span 1;
   grid-row: 7 / span 1;
 }
 
-.weektext4{
+.weektext4 {
   grid-column: 2 / span 2;
   grid-row: 7 / span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 24px;
 }
+
+.weekprice4{
+  grid-column: 4 / span 1;
+  grid-row: 7 / span 1; 
+}
+
+
 
 .weekblock5 {
   grid-column: 1 / span 1;
   grid-row: 8 / span 1;
 }
 
-.weektext5{
+.weektext5 {
   grid-column: 2 / span 2;
   grid-row: 8 / span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 24px;
 }
 
+.weekprice5{
+  grid-column: 4 / span 1;
+  grid-row: 8 / span 1; 
+}
 
 .weekblock6 {
   grid-column: 1 / span 1;
   grid-row: 9 / span 1;
 }
 
-.weektext6{
+.weektext6 {
   grid-column: 2 / span 2;
   grid-row: 9 / span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 24px;
 }
+
+.weekprice6{
+  grid-column: 4 / span 1;
+  grid-row: 9/ span 1; 
+}
+
+
 
 .weekblock7 {
   grid-column: 1 / span 1;
   grid-row: 10 / span 1;
 }
 
-.weektext7{
+.weektext7 {
   grid-column: 2 / span 2;
   grid-row: 10 / span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 24px;
+}
+.weekprice7{
+  grid-column: 4 / span 1;
+  grid-row: 10/ span 1; 
 }
 
 .weekblock1:hover {
