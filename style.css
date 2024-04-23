@@ -13,9 +13,9 @@
   src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeSans.ttf?v=1713824419153");
 }
 
-body{
-  background-color:white;
-  padding:15px;
+body {
+  background-color: white;
+  padding: 15px;
 }
 
 .grid-container {
@@ -26,10 +26,10 @@ body{
   margin: 15px;
 }
 
-h1{
+h1 {
   color: black;
   font-family: "OpenSans-regular", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 80px;
   margin: 25px;
   grid-column: 2 / span 2;
@@ -37,7 +37,7 @@ h1{
   text-align: center;
 }
 
-.subtitle{
+.subtitle {
   color: black;
   font-family: "FreeMono", serif;
   font-size: 24px;
@@ -48,112 +48,104 @@ h1{
 }
 
 .dashed-line {
-  border-top: 1.5px dashed black; 
-  width: 100%; 
+  border-top: 1.5px dashed black;
+  width: 100%;
   grid-column: 2 / span 2;
   grid-row: 3 / span 1;
 }
 
-.order{
+.order {
   color: black;
   font-family: "FreeMono", serif;
   font-size: 24px;
-  margin-top:-25px;
-  grid-column: 1 ;
+  margin-top: -25px;
+  grid-column: 1;
   grid-row: 3;
   text-align: center;
 }
 
-.price{
+.price {
   color: black;
   font-family: "FreeMono", serif;
   font-size: 24px;
-  margin-top:-25px;
+  margin-top: -25px;
   grid-column: 4;
   grid-row: 3;
   text-align: center;
 }
 
-.weekblock1{
+.weekblock1 {
   grid-column: 1 / span 1;
   grid-row: 4 / span 1;
-   color: black;
-  font-family: "FreeMono", serif;
-  font-size: 24px;
-  width: 200px;
-  height: 200px;
-  margin: 25px;
   background-color: black;
   border-radius: 25%;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.weekblock2{
+.weekblock2 {
   grid-column: 1 / span 1;
   grid-row: 5 / span 1;
-  width: 200px;
-  height: 200px;
-  margin: 25px;
   background-color: black;
   border-radius: 25%;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.weekblock3{
+.weekblock3 {
   grid-column: 1 / span 1;
   grid-row: 6 / span 1;
-  width: 200px;
-  height: 200px;
-  margin: 25px;
   background-color: black;
   border-radius: 25%;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.weekblock4{
+.weekblock4 {
   grid-column: 1 / span 1;
   grid-row: 7 / span 1;
-  width: 200px;
-  height: 200px;
-  margin: 25px;
   background-color: black;
   border-radius: 25%;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.weekblock5{
+.weekblock5 {
   grid-column: 1 / span 1;
   grid-row: 8 / span 1;
-  width: 200px;
-  height: 200px;
-  margin: 25px;
-  background-color: black;
-  border-radius: 25%;
-  vertical-align: middle;
 }
 
-.weekblock6{
+.weekblock6 {
   grid-column: 1 / span 1;
   grid-row: 9 / span 1;
-  width: 200px;
-  height: 200px;
-  margin: 25px;
-  background-color: black;
-  border-radius: 25%;
-  vertical-align: middle;
 }
 
-.weekblock7{
+.weekblock7 {
   grid-column: 1 / span 1;
   grid-row: 10 / span 1;
+}
+
+.weekblock1,
+.weekblock2,
+.weekblock3,
+.weekblock4,
+.weekblock5,
+.weekblock6,
+.weekblock7 {
+  color: white;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+  transition: background-image 0.5s ease;
   width: 200px;
   height: 200px;
   margin: 25px;
   background-color: black;
   border-radius: 25%;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-
