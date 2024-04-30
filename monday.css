@@ -28,10 +28,20 @@ body {
       top: 0;
       left: 0;
       width: 100%;
+      background-color: white;
       padding: 10px 20px;
       box-sizing: border-box;
       z-index: 1000; /* Ensure the navbar stays on top of other content */
     }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows: auto; /* auto rows */
+  gap: 15px; /* gap between grid items */
+  margin: 15px;
+}
+
 
 h1 {
   color: black;
@@ -57,21 +67,24 @@ h1 {
   grid-row: 3 / span 1;
 }
 
-.order,
+.order {
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 24px;
+  margin-top: -25px;
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+}
+
 .price {
   color: black;
   font-family: "FreeMono", serif;
   font-size: 24px;
   margin-top: -25px;
+  grid-column: 4;
+  grid-row: 3;
   text-align: center;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-auto-rows: auto; /* auto rows */
-  gap: 15px; /* gap between grid items */
-  margin: 15px;
 }
 
 .box {
