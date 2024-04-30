@@ -14,13 +14,16 @@
 setInterval(updateOrderTime, 1000);
 
 
- window.addEventListener('DOMContentLoaded', function() {
-      var boxes = document.querySelectorAll('.box');
-      var navbarHeight = document.querySelector('.navbar').offsetHeight;
-      boxes.forEach(function(box) {
-        var randomX = Math.floor(Math.random() * (window.innerWidth - box.offsetWidth));
-        var randomY = Math.floor(Math.random() * (window.innerHeight - box.offsetHeight - navbarHeight));
-        box.style.left = randomX + 'px';
-        box.style.top = randomY + navbarHeight + 'px';
-      });
-    });
+window.addEventListener('DOMContentLoaded', function() {
+  var boxes = document.querySelectorAll('.box');
+  var navbarHeight = document.querySelector('.navbar').offsetHeight;
+  var footerHeight = document.querySelector('.footer').offsetHeight;
+  var availableHeight = window.innerHeight - navbarHeight - footerHeight;
+  
+  boxes.forEach(function(box) {
+    var randomX = Math.floor(Math.random() * (window.innerWidth - box.offsetWidth));
+    var randomY = Math.floor(Math.random() * (availableHeight - box.offsetHeight));
+    box.style.left = randomX + 'px';
+    box.style.top = navbarHeight + randomY + 'px';
+  });
+});
