@@ -27,3 +27,20 @@ window.addEventListener('DOMContentLoaded', function() {
     box.style.top = navbarHeight + randomY + 'px';
   });
 });
+
+
+ function addToPay(price) {
+      var walletAmount = 100; // Initial wallet amount
+      var payAmount = price; // Use the provided price
+      var paySection = document.querySelector('.footer .price');
+      var walletSection = document.querySelector('.footer .order');
+
+      // Update wallet amount
+      walletAmount -= payAmount;
+
+      // Update pay section
+      paySection.textContent = "Pay: $" + payAmount;
+
+      // Update wallet section
+      walletSection.textContent = "Wallet: $" + walletAmount;
+    }
