@@ -14,9 +14,10 @@
 }
 
 @font-face {
-  font-family: "Blogh";
-  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Blogh.otf?v=1714483584401");
+  font-family: "Brandzet";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Brandzet.otf?v=1714489274442");
 }
+
 
 body {
   background-color: white;
@@ -33,7 +34,7 @@ body {
 
 h1 {
   color: black;
-  font-family: "Blogh", sans-serif;
+  font-family: "Brandzet", sans-serif;
   font-weight: bold;
   font-size: 80px;
   margin: 25px;

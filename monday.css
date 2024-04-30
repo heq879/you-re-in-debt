@@ -14,8 +14,8 @@
 }
 
 @font-face {
-  font-family: "Blogh";
-  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Blogh.otf?v=1714483584401");
+  font-family: "Brandzet";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Brandzet.otf?v=1714489274442");
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 
 h1 {
   color: black;
-  font-family: "Blogh", sans-serif;
+  font-family: "Brandzet", sans-serif;
   font-weight: bold;
   font-size: 80px;
   margin: 25px;
@@ -87,12 +87,13 @@ h1 {
 }
 
 .box {
-  width: 200px;
+  width: 300px;
   height: auto;
   padding:25px;
   background-color: white;
   border: 1px solid black;
   position: absolute;
+  font-size: 24px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -104,3 +105,14 @@ h1 {
 audio {
       width: 80%;
     }
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  width: 25px;
+  height: auto;
+}
