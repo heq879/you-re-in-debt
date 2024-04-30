@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "OpenSans-regular";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/OpenSans-VariableFont_wdth%2Cwght.ttf?v=1713823871356");
+}
+
+@font-face {
+  font-family: "FreeMono";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeMono.ttf?v=1713824397792");
+}
+
+@font-face {
+  font-family: "FreeSans";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeSans.ttf?v=1713824419153");
+}
+
+@font-face {
+  font-family: "Blogh";
+  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Blogh.otf?v=1714483584401");
+}
+
+
+body {
+  background-color: white;
+  padding: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-rows: auto; /* auto rows */
+  gap: 15px; /* gap between grid items */
+  margin: 15px;
+}
+
