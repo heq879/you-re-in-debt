@@ -29,18 +29,25 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 
- function addToPay(price) {
-      var walletAmount = 100; // Initial wallet amount
-      var payAmount = price; // Use the provided price
-      var paySection = document.querySelector('.footer .price');
+ var totalPayAmount = 0;
+
+    function addToPay(price) {
       var walletSection = document.querySelector('.footer .order');
+      var paySection = document.querySelector('.footer .price');
 
-      // Update wallet amount
-      walletAmount -= payAmount;
+      // Get the current wallet amount
+      var walletText = walletSection.textContent;
+      var walletAmount = parseFloat(walletText.split('$')[1]);
 
-      // Update pay section
-      paySection.textContent = "Pay: $" + payAmount;
+      // Subtract the price from the wallet amount
+      walletAmount -= price;
 
       // Update wallet section
       walletSection.textContent = "Wallet: $" + walletAmount;
+
+      // Add the price to the total pay amount
+      totalPayAmount += price;
+
+      // Update pay section with the total pay amount
+      paySection.textContent = "Pay: $" + totalPayAmount;
     }
