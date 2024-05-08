@@ -18,15 +18,25 @@ setInterval(updateOrderTime, 1000);
 //the boxes
 
 document.addEventListener("DOMContentLoaded", function() {
-  const boxes = document.querySelectorAll(".box");
+  const container = document.getElementById('container');
 
-  boxes.forEach(box => {
+  document.querySelectorAll(".box").forEach(box => {
     const randomX = Math.random() * (window.innerWidth - 50); // Adjust 50 to box width
     const randomY = Math.random() * (window.innerHeight - 150); // Adjust 150 to total box height + footer height
     box.style.left = `${randomX}px`;
     box.style.top = `${randomY}px`;
+
+    // Add click event listener to each box
+    box.addEventListener('click', function() {
+      // Create a new div element to display the text content
+      const textDisplay = document.createElement('div');
+      textDisplay.classList.add('text-display');
+      textDisplay.textContent = box.textContent.trim(); // Get and trim the text content of the box
+      container.appendChild(textDisplay);
+    });
   });
 });
+
 
 
 //the pay function
