@@ -19,7 +19,6 @@ setInterval(updateOrderTime, 1000);
 
 window.addEventListener('DOMContentLoaded', function() {
   var boxes = document.querySelectorAll('.box');
-  var navbarHeight = document.querySelector('.navbar').offsetHeight;
   var footerHeight = document.querySelector('.footer').offsetHeight;
   var availableHeight = window.innerHeight - navbarHeight - footerHeight;
   
@@ -29,7 +28,6 @@ window.addEventListener('DOMContentLoaded', function() {
     box.style.left = randomX + 'px';
     box.style.top = navbarHeight + randomY + 'px';
   });
-});
 
 //the par function
 
