@@ -19,21 +19,17 @@ setInterval(updateOrderTime, 1000);
 
 window.addEventListener('DOMContentLoaded', function() {
   var boxes = document.querySelectorAll('.box');
-  var container = document.querySelector('.container');
   var navbarHeight = document.querySelector('.navbar').offsetHeight;
   var footerHeight = document.querySelector('.footer').offsetHeight;
-  var availableWidth = container.offsetWidth - 300; // Subtract box width
-  var availableHeight = container.offsetHeight - navbarHeight - footerHeight; // Subtract navbar and footer height
+  var availableHeight = window.innerHeight - navbarHeight - footerHeight;
   
   boxes.forEach(function(box) {
-    var randomX = Math.floor(Math.random() * availableWidth);
-    var randomY = Math.floor(Math.random() * availableHeight);
+    var randomX = Math.floor(Math.random() * (window.innerWidth - box.offsetWidth));
+    var randomY = Math.floor(Math.random() * (availableHeight - box.offsetHeight));
     box.style.left = randomX + 'px';
     box.style.top = navbarHeight + randomY + 'px';
   });
 });
-
-
 
 //the par function
 

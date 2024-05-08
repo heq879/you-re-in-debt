@@ -116,19 +116,14 @@ img {
 }
 
 .footer {
- .footer {
   width: 750px; /* Set width to match the container */
   background-color: lightgray;
   padding: 0px 5px;
   text-align: center;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Align content horizontally in the center */
-  align-items: center; /* Align content vertically in the center */
   position: fixed;
   bottom: 0;
   left: 50%; /* Position the left edge at the center */
-  transform: translateX(-50%); /* Adjust to center the element */
-}
+  transform: translateX(-50%); 
 }
 
 .footer-content {
