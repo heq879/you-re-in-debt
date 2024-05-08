@@ -85,7 +85,7 @@ h1 {
 .order {
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: -25px;
   grid-column: 1;
   grid-row: 3;
@@ -95,7 +95,7 @@ h1 {
 .price {
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: -25px;
   grid-column: 4;
   grid-row: 3;
@@ -111,7 +111,7 @@ h1 {
 .weekblock7 {
   color: white;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   transition: background-image 0.5s ease;
   width: 200px;
   height: 200px;
@@ -135,8 +135,9 @@ h1 {
   align-items: center;
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   margin: 25px;
+  margin-left: 75px;
 }
 
 .weekprice1,
@@ -151,7 +152,7 @@ h1 {
   align-items: center;
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .weekblock1 {
