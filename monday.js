@@ -19,6 +19,8 @@ setInterval(updateOrderTime, 1000);
 
 document.addEventListener("DOMContentLoaded", function() {
   const container = document.getElementById('container');
+  let isDragging = false;
+  let offsetX, offsetY;
 
   document.querySelectorAll(".box").forEach(box => {
     const randomX = Math.random() * (window.innerWidth - 50); // Adjust 50 to box width
@@ -26,44 +28,44 @@ document.addEventListener("DOMContentLoaded", function() {
     box.style.left = `${randomX}px`;
     box.style.top = `${randomY}px`;
 
-    let isDragging = false;
-    let offsetX, offsetY;
+    // Add click event listener to each box
+    box.addEventListener('click', function() {
+      // Create a new div element to display the text content
+      const textDisplay = document.createElement('div');
+      textDisplay.classList.add('text-display');
+      textDisplay.textContent = box.textContent.trim(); // Get and trim the text content of the box
+      container.appendChild(textDisplay);
+    });
 
-    // Function to handle mouse down event
-    function handleMouseDown(event) {
+    // Add mouse down event listener to each box
+    box.addEventListener('mousedown', function(e) {
       isDragging = true;
-      offsetX = event.clientX - parseFloat(box.style.left);
-      offsetY = event.clientY - parseFloat(box.style.top);
-    }
+      offsetX = e.clientX - box.getBoundingClientRect().left;
+      offsetY = e.clientY - box.getBoundingClientRect().top;
+    });
 
-    // Function to handle mouse move event
-    function handleMouseMove(event) {
+    // Add mouse move event listener to each box
+    box.addEventListener('mousemove', function(e) {
       if (isDragging) {
-        box.style.left = `${event.clientX - offsetX}px`;
-        box.style.top = `${event.clientY - offsetY}px`;
+        const newX = e.clientX - offsetX;
+        const newY = e.clientY - offsetY;
+        box.style.left = `${newX}px`;
+        box.style.top = `${newY}px`;
       }
-    }
+    });
 
-    // Function to handle mouse up event
-    function handleMouseUp() {
+    // Add mouse up event listener to each box
+    box.addEventListener('mouseup', function() {
       isDragging = false;
-    }
+    });
 
-    // Add mousedown event listener to start dragging
-    box.addEventListener('mousedown', handleMouseDown);
-
-    // Add mousemove event listener to move the box
-    document.addEventListener('mousemove', handleMouseMove);
-
-    // Add mouseup event listener to stop dragging
-    document.addEventListener('mouseup', handleMouseUp);
-
-    // Prevent text selection while dragging
-    box.addEventListener('mousedown', function(event) {
-      event.preventDefault();
+    // Add mouse leave event listener to each box
+    box.addEventListener('mouseleave', function() {
+      isDragging = false;
     });
   });
 });
+
 
 
 
