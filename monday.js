@@ -1,4 +1,5 @@
- function updateOrderTime() {
+//the order time 
+function updateOrderTime() {
     var orderTimeElement = document.getElementById('order-time');
     var currentDate = new Date();
     var year = currentDate.getFullYear().toString();
@@ -14,19 +15,27 @@
 setInterval(updateOrderTime, 1000);
 
 
+//the boxes
+
 window.addEventListener('DOMContentLoaded', function() {
   var boxes = document.querySelectorAll('.box');
+  var container = document.querySelector('.container');
   var navbarHeight = document.querySelector('.navbar').offsetHeight;
   var footerHeight = document.querySelector('.footer').offsetHeight;
-  var availableHeight = window.innerHeight - navbarHeight - footerHeight;
+  var availableWidth = container.offsetWidth - 300; // Subtract box width
+  var availableHeight = container.offsetHeight - navbarHeight - footerHeight; // Subtract navbar and footer height
   
   boxes.forEach(function(box) {
-    var randomX = Math.floor(Math.random() * (window.innerWidth - box.offsetWidth));
-    var randomY = Math.floor(Math.random() * (availableHeight - box.offsetHeight));
+    var randomX = Math.floor(Math.random() * availableWidth);
+    var randomY = Math.floor(Math.random() * availableHeight);
     box.style.left = randomX + 'px';
     box.style.top = navbarHeight + randomY + 'px';
   });
 });
+
+
+
+//the par function
 
 
  var totalPayAmount = 0;
