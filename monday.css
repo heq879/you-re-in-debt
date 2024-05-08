@@ -124,8 +124,11 @@ img {
 }
 
 .text-display .auto-pay {
-  grid-column: 4 / span 1;
-  /* Add more styling as needed */
+  font-family: "FreeMono", serif;
+  font-size: 18px; /* Adjust font size as needed */
+  grid-column: 4 / span 1; /* Place in the fourth column */
+  text-align: center; /* Center-align the auto-pay numbers */
+  margin-top: 5px; /* Add top margin for spacing */
 }
 
 
