@@ -17,19 +17,40 @@ setInterval(updateOrderTime, 1000);
 
 //the boxes
 
-window.addEventListener('DOMContentLoaded', function() {
-  var boxes = document.querySelectorAll('.box');
-  var footerHeight = document.querySelector('.footer').offsetHeight;
-  var availableHeight = window.innerHeight - navbarHeight - footerHeight;
-  
-  boxes.forEach(function(box) {
-    var randomX = Math.floor(Math.random() * (window.innerWidth - box.offsetWidth));
-    var randomY = Math.floor(Math.random() * (availableHeight - box.offsetHeight));
-    box.style.left = randomX + 'px';
-    box.style.top = navbarHeight + randomY + 'px';
-  });
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.querySelector(".container");
+  const footerHeight = document.querySelector(".footer").clientHeight;
 
-//the par function
+  function getRandomPosition() {
+    const windowHeight = window.innerHeight;
+    const windowWidth = window.innerWidth;
+    const boxWidth = 300;
+    const boxHeight = 300;
+    const maxTop = windowHeight - footerHeight - boxHeight;
+    const maxLeft = windowWidth - boxWidth;
+    const top = Math.floor(Math.random() * maxTop);
+    const left = Math.floor(Math.random() * maxLeft);
+    return { top, left };
+  }
+
+  function createBox() {
+    const box = document.createElement("div");
+    box.className = "box";
+    const { top, left } = getRandomPosition();
+    box.style.top = top + "px";
+    box.style.left = left + "px";
+    box.innerText = "Box";
+    container.appendChild(box);
+  }
+
+  for (let i = 0; i < 5; i++) {
+    createBox();
+  }
+});
+
+
+
+//the pay function
 
 
  var totalPayAmount = 0;
