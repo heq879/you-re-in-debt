@@ -37,13 +37,20 @@ document.addEventListener("DOMContentLoaded", function() {
       const textDisplay = document.createElement('div');
       textDisplay.classList.add('text-display');
       textDisplay.textContent = box.textContent.trim(); // Get and trim the text content of the box
-      container.appendChild(textDisplay);
+
+      // Create a new div element to contain textDisplay and autoPayDisplay
+      const displayContainer = document.createElement('div');
+      displayContainer.classList.add('display-container'); // Add a class for styling
+      displayContainer.appendChild(textDisplay);
 
       // Display the auto-pay value beside the text display
       const autoPayDisplay = document.createElement('span');
       autoPayDisplay.classList.add('auto-pay');
       autoPayDisplay.textContent = `(${autoPay})`;
-      textDisplay.appendChild(autoPayDisplay);
+      autoPayDisplay.style.textAlign = 'center'; // Align center
+      displayContainer.appendChild(autoPayDisplay);
+
+      container.appendChild(displayContainer); // Append the container with textDisplay and autoPayDisplay to the main container
     });
 
     // Add mouse down event listener to each box
