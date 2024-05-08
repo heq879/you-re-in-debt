@@ -116,6 +116,14 @@ img {
   height: auto;
 }
 
+.text-display {
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 18px;
+  z-index: 999; /* Ensure it appears above other content */
+}
+
+
 .footer {
   width: 750px; /* Set width to match the container */
   background-color: lightgray;

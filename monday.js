@@ -26,13 +26,41 @@ document.addEventListener("DOMContentLoaded", function() {
     box.style.left = `${randomX}px`;
     box.style.top = `${randomY}px`;
 
-    // Add click event listener to each box
-    box.addEventListener('click', function() {
-      // Create a new div element to display the text content
-      const textDisplay = document.createElement('div');
-      textDisplay.classList.add('text-display');
-      textDisplay.textContent = box.textContent.trim(); // Get and trim the text content of the box
-      container.appendChild(textDisplay);
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    // Function to handle mouse down event
+    function handleMouseDown(event) {
+      isDragging = true;
+      offsetX = event.clientX - parseFloat(box.style.left);
+      offsetY = event.clientY - parseFloat(box.style.top);
+    }
+
+    // Function to handle mouse move event
+    function handleMouseMove(event) {
+      if (isDragging) {
+        box.style.left = `${event.clientX - offsetX}px`;
+        box.style.top = `${event.clientY - offsetY}px`;
+      }
+    }
+
+    // Function to handle mouse up event
+    function handleMouseUp() {
+      isDragging = false;
+    }
+
+    // Add mousedown event listener to start dragging
+    box.addEventListener('mousedown', handleMouseDown);
+
+    // Add mousemove event listener to move the box
+    document.addEventListener('mousemove', handleMouseMove);
+
+    // Add mouseup event listener to stop dragging
+    document.addEventListener('mouseup', handleMouseUp);
+
+    // Prevent text selection while dragging
+    box.addEventListener('mousedown', function(event) {
+      event.preventDefault();
     });
   });
 });
