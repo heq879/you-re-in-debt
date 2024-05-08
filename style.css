@@ -21,7 +21,29 @@
 
 body {
   background-color: white;
+  display: flex;
+  justify-content: center; /* Align content horizontally in the center */
+  align-items: center;
+}
+
+.container{
+ background-color: white; 
   padding: 15px;
+  width: 750px;
+  height: auto;
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 1000; /* Ensure the navbar stays on top of other content */
 }
 
 .grid-container {
@@ -34,9 +56,9 @@ body {
 
 h1 {
   color: black;
-  font-family: "Brandzet", sans-serif;
+  font-family: "FreeMono", sans-serif;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 40px;
   margin: 25px;
   grid-column: 2 / span 2;
   grid-row: 1 / span 1;
@@ -46,7 +68,7 @@ h1 {
 .subtitle {
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   margin: 40px;
   grid-column: 2 / span 2;
   grid-row: 2 / span 1;
