@@ -13,11 +13,6 @@
   src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeSans.ttf?v=1713824419153");
 }
 
-@font-face {
-  font-family: "Brandzet";
-  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Brandzet.otf?v=1714489274442");
-}
-
 
 body {
   background-color: white;
@@ -35,16 +30,6 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  z-index: 1000; /* Ensure the navbar stays on top of other content */
-}
 
 .grid-container {
   display: grid;
@@ -261,6 +246,11 @@ h1 {
 .weekprice7{
   grid-column: 4 / span 1;
   grid-row: 10/ span 1; 
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the parent element's color */
 }
 
 .weekblock1:hover {

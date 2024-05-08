@@ -13,14 +13,18 @@
   src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeSans.ttf?v=1713824419153");
 }
 
-@font-face {
-  font-family: "Brandzet";
-  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Brandzet.otf?v=1714489274442");
-}
-
 body {
   background-color: white;
   padding: 15px;
+}
+
+.container{
+ background-color: white; 
+  padding: 15px;
+  width: 750px;
+  height: auto;
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
@@ -42,19 +46,21 @@ body {
   margin: 15px;
 }
 
-h1 {
+  h1 {
   color: black;
-  font-family: "Brandzet", sans-serif;
+  font-family: "FreeMono", sans-serif;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 40px;
   margin: 25px;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
   text-align: center;
 }
 
 .subtitle {
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   margin: 40px;
   text-align: center;
 }
@@ -69,7 +75,7 @@ h1 {
 .order {
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: -25px;
   grid-column: 1;
   grid-row: 3;
@@ -79,7 +85,7 @@ h1 {
 .price {
   color: black;
   font-family: "FreeMono", serif;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: -25px;
   grid-column: 4;
   grid-row: 3;
@@ -93,7 +99,7 @@ h1 {
   background-color: white;
   border: 1px solid black;
   position: absolute;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   display: flex;
