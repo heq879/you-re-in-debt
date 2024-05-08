@@ -84,8 +84,9 @@ body {
   text-align: center;
 }
 
+
 .box {
-  width: 300px;
+  width: 250px;
   height: auto;
   padding: 25px;
   background-color: white;
@@ -122,6 +123,8 @@ img {
   text-align: center;
   position: fixed;
   bottom: 0;
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   left: 50%; /* Position the left edge at the center */
   transform: translateX(-50%); 
 }

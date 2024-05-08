@@ -17,37 +17,16 @@ setInterval(updateOrderTime, 1000);
 
 //the boxes
 
-document.addEventListener("DOMContentLoaded", function () {
-  const container = document.querySelector(".container");
-  const footerHeight = document.querySelector(".footer").clientHeight;
+document.addEventListener("DOMContentLoaded", function() {
+  const boxes = document.querySelectorAll(".box");
 
-  function getRandomPosition() {
-    const windowHeight = window.innerHeight;
-    const windowWidth = window.innerWidth;
-    const boxWidth = 300;
-    const boxHeight = 300;
-    const maxTop = windowHeight - footerHeight - boxHeight;
-    const maxLeft = windowWidth - boxWidth;
-    const top = Math.floor(Math.random() * maxTop);
-    const left = Math.floor(Math.random() * maxLeft);
-    return { top, left };
-  }
-
-  function createBox() {
-    const box = document.createElement("div");
-    box.className = "box";
-    const { top, left } = getRandomPosition();
-    box.style.top = top + "px";
-    box.style.left = left + "px";
-    box.innerText = "Box";
-    container.appendChild(box);
-  }
-
-  for (let i = 0; i < 5; i++) {
-    createBox();
-  }
+  boxes.forEach(box => {
+    const randomX = Math.random() * (window.innerWidth - 50); // Adjust 50 to box width
+    const randomY = Math.random() * (window.innerHeight - 150); // Adjust 150 to total box height + footer height
+    box.style.left = `${randomX}px`;
+    box.style.top = `${randomY}px`;
+  });
 });
-
 
 
 //the pay function
