@@ -123,6 +123,11 @@ img {
   z-index: 999; /* Ensure it appears above other content */
 }
 
+.text-display .auto-pay {
+  grid-column: 4 / span 1;
+  /* Add more styling as needed */
+}
+
 
 .footer {
   width: 750px; /* Set width to match the container */
