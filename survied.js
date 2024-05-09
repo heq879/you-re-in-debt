@@ -1,15 +1,14 @@
-  document.addEventListener("DOMContentLoaded", function() {
-    const textMenu = document.querySelector('.text-menu');
+function generateBox() {
+    // Create a new box element
+    var newBox = document.createElement("div");
+    newBox.classList.add("box");
 
-    // Function to generate a box
-    function generateBox() {
-      const box = document.createElement('div');
-      box.classList.add('box');
-      document.body.appendChild(box);
-    }
+    // Set random position
+    var xPosition = Math.random() * (window.innerWidth - 120); // Adjust for box width
+    var yPosition = Math.random() * (window.innerHeight - 120); // Adjust for box height
+    newBox.style.left = xPosition + "px";
+    newBox.style.top = yPosition + "px";
 
-    // Add click event listener to each text element
-    textMenu.querySelectorAll('br').forEach(br => {
-      br.addEventListener('click', generateBox);
-    });
-  });
+    // Append the new box to the body
+    document.body.appendChild(newBox);
+}
