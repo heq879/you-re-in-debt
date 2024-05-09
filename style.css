@@ -246,3 +246,46 @@ a {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/sunday.png?v=1713833164996");
   background-size: 125px 125px; 
 }
+
+
+.subtotal {
+  color: black;
+  font-family: "FreeMono", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 25px;
+  grid-column: 1 / span 1;
+  text-align: center;
+}
+
+.money {
+  color: black;
+  font-family: "FreeMono", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 25px;
+  grid-column: 3 / span 2;
+  text-align: center;
+}
+
+.paycode{
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paycode img {
+   margin: 25px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+p {
+  color: black;
+  font-family: "FreeMono", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 25px;
+  text-align: center;
+}
