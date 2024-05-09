@@ -30,7 +30,6 @@ body {
   border: 2px solid black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
 .grid-container {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
