@@ -66,8 +66,8 @@ document.addEventListener("DOMContentLoaded", function() {
  var totalPayAmount = 0;
 
     function addToPay(price) {
-      var walletSection = document.querySelector('.footer .order');
-      var paySection = document.querySelector('.footer .price');
+      var walletSection = document.querySelector('.footer .wallet');
+      var paySection = document.querySelector('.footer .pay');
 
       // Get the current wallet amount
       var walletText = walletSection.textContent;
@@ -85,3 +85,4 @@ document.addEventListener("DOMContentLoaded", function() {
       // Update pay section with the total pay amount
       paySection.textContent = "Pay: $" + totalPayAmount;
     }
+

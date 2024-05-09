@@ -174,3 +174,20 @@ img {
 .footer-content {
   margin: ;
 }
+
+.wallet {
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+}
+
+.pay {
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  grid-column: 4/ span 1;
+}
