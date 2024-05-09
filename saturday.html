@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Goodbye World!</title>
+    <link rel="stylesheet" href="/monday.css" />
+    <script src="/monday.js" defer></script>
+  </head>
+  <body>
+    <a href="index.html" class="back-button">
+      <img
+        src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/arrow-ios-back-svgrepo-com.svg?v=1715221600579"
+        alt="Back"
+      />
+    </a>
+
+    <div class="container" id="container">
+      <h1>Check Out My Mental Cart!</h1>
+      <h2 class="subtitle">
+        Mazzey is a NYC based, so far human-shaped Parsons student.
+        <br />
+        Check out her mental status in the cart to finish up this year with
+        spirtual crash down.
+        <br />
+        Scan the QR code in the bottom to buy her some coffee.
+      </h2>
+
+      <div class="dashed-line"></div>
+
+      <div class="grid-container">
+        <div class="order" id="order">Order: <span id="order-time"></span></div>
+        <div class="price">Price</div>
+      </div>
+
+      <div class="dashed-line"></div>
+
+      <div class="grid-container">
+        <div class="text-menu">
+          wakes up
+          <br />
+          hangover
+          <br />
+          nap(15min)
+          <br />
+          nap(2hr)
+          <br />
+          nap(30min)
+          <br />
+          leave house
+          <br />
+          go out
+          <br />
+          netflix
+          <br />
+          cook
+        </div>
+
+        <div class="text-price">
+          -20.0
+          <br />
+          20.0
+          <br />
+          10.0
+          <br />
+          5.00
+          <br />
+          15.0
+          <br />
+          10.0
+          <br />
+          65.0
+          <br />
+          -15.0
+          <br />
+          10.0
+        </div>
+      </div>
+
+      <div class="box">
+        wakes up
+        <button onclick="addToPay(5)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+
+      <div class="box">
+        <audio controls>
+          <source
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/WOMAN%20VOMITING%20SOUND%20EFFECT%20(HD)%20-%20All-round%20Sounds.mp3?v=1715230835997"
+            type="audio/mpeg"
+          />
+        </audio>
+        hangover...
+        <button onclick="addToPay(20)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+      
+        <div class="box">
+        nap for 15 minutes
+        <button onclick="addToPay(-15)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+      
+       <div class="box">
+        nap for 2 hours
+        <button onclick="addToPay(-30)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+      
+       <div class="box">
+        nap for 30 minutes
+        <button onclick="addToPay(-30)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+
+      <div class="box">
+        <a href="https://www.wholefoodsmarket.com/stores" target="_blank"
+          >go to wholefood</a
+        >
+        <button onclick="addToPay(5)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+
+      <div class="box">
+        do work
+        <button onclick="addToPay(65)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+
+      <div class="box">
+        eat out
+        <button onclick="addToPay(-15)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+
+      <div class="box">
+        <audio controls>
+          <source
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/WOMAN%20VOMITING%20SOUND%20EFFECT%20(HD)%20-%20All-round%20Sounds.mp3?v=1715230835997"
+            type="audio/mpeg"
+          />
+        </audio>
+        binge eat...
+        <button onclick="addToPay(10)">
+          <img
+            src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/Iconsmind-Outline-Add-Cart.512.png?v=1714488669116"
+            alt="Add to Cart"
+          />
+        </button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="grid-container">
+        <h3 class="wallet">Wallet: $100</h3>
+        <h3 class="pay">Pay:</h3>
+        <img
+          src="https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/survied.png?v=1715227845238"
+          alt="Survived Image"
+        />
+      </div>
+    </div>
+  </body>
+</html>
