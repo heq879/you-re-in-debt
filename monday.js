@@ -18,6 +18,8 @@ setInterval(updateOrderTime, 1000);
 //the boxes
 document.addEventListener("DOMContentLoaded", function() {
   const container = document.getElementById('container');
+  const gridContainer = document.getElementById('grid'); // Get the grid container with id "grid"
+
   let isDragging = false;
   let offsetX, offsetY;
   let textDisplayCount = 0;
@@ -37,20 +39,16 @@ document.addEventListener("DOMContentLoaded", function() {
       const textDisplay = document.createElement('div');
       textDisplay.classList.add('text-display');
       textDisplay.textContent = box.textContent.trim(); // Get and trim the text content of the box
-
-      // Create a new div element to contain textDisplay and autoPayDisplay
-      const displayContainer = document.createElement('div');
-      displayContainer.classList.add('display-container'); // Add a class for styling
-      displayContainer.appendChild(textDisplay);
+      container.appendChild(textDisplay);
 
       // Display the auto-pay value beside the text display
       const autoPayDisplay = document.createElement('span');
       autoPayDisplay.classList.add('auto-pay');
       autoPayDisplay.textContent = `(${autoPay})`;
-      autoPayDisplay.style.textAlign = 'center'; // Align center
-      displayContainer.appendChild(autoPayDisplay);
+      textDisplay.appendChild(autoPayDisplay);
 
-      container.appendChild(displayContainer); // Append the container with textDisplay and autoPayDisplay to the main container
+      // Add auto-pay section to the grid container
+      gridContainer.appendChild(autoPayDisplay); // Append auto-pay to the grid container
     });
 
     // Add mouse down event listener to each box
@@ -81,8 +79,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
-
-
 
 
 //the pay function
