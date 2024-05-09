@@ -21,6 +21,20 @@ body {
   align-items: center;
 }
 
+.back-button {
+  position: fixed; /* Position the button relative to the viewport */
+  top: 0; /* Align the button to the top of the viewport */
+  left: 0; /* Align the button to the left of the viewport */
+  width: 50px; /* Set the width of the button */
+  height: 50px; /* Set the height of the button */
+  padding: 20px; /* Optional: Add padding to the button for better clickability */
+  z-index: 999; /* Ensure the button appears above other content */
+}
+.back-button img {
+  width: 100%; /* Ensure the SVG fills the button */
+  height: 100%; /* Ensure the SVG fills the button */
+}
+
 .container{
  background-color: white; 
   padding: 15px;
@@ -107,7 +121,7 @@ body {
   font-size: 18px;
   margin: 25px;
   line-height: 1.5;
-  grid-column: 4/ span 1;
+  grid-column: 3/ span 2;
   
 }
 
@@ -145,7 +159,7 @@ img {
 
 
 .footer {
-  width: 750px; /* Set width to match the container */
+  width: 100%; /* Set width to match the container */
   background-color: lightgray;
   padding: 0px 5px;
   text-align: center;
