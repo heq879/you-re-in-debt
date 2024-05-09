@@ -94,7 +94,7 @@ body {
   font-family: "FreeMono", serif;
   font-size: 18px;
   margin: 25px;
-  line-height: 1;
+  line-height: 1.5;
   grid-column: 1 / span 2;
 }
 
@@ -106,7 +106,7 @@ body {
   font-family: "FreeMono", serif;
   font-size: 18px;
   margin: 25px;
-  line-height: 2;
+  line-height: 1.5;
   grid-column: 4/ span 1;
   
 }
