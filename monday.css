@@ -193,9 +193,9 @@ img {
 .footer img {
   width: 75px;
   height: 75px; 
-  grid-column: 3/ span 1;
   grid-row: 1/ span 1;
   justify-content: center;
+  align-self: center;
 }
 
 a {
