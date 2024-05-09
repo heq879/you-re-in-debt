@@ -167,12 +167,8 @@ img {
   bottom: 0;
   border: 2px solid black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  left: 50%; /* Position the left edge at the center */
+  left: 50%; 
   transform: translateX(-50%); 
-}
-
-.footer-content {
-  margin: ;
 }
 
 .wallet {
@@ -181,6 +177,7 @@ img {
   font-size: 18px;
   text-align: center;
   justify-content: center;
+  grid-row: 1/ span 1;
 }
 
 .pay {
@@ -190,4 +187,13 @@ img {
   text-align: center;
   justify-content: center;
   grid-column: 4/ span 1;
+  grid-row: 1/ span 1;
+}
+
+.footer img {
+  width: 75px;
+  height: 75px; 
+  grid-column: 3/ span 1;
+  grid-row: 1/ span 1;
+  justify-content: center;
 }

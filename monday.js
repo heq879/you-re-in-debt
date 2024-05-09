@@ -63,26 +63,34 @@ document.addEventListener("DOMContentLoaded", function() {
 //the pay function
 
 
- var totalPayAmount = 0;
+var totalPayAmount = 0;
 
-    function addToPay(price) {
-      var walletSection = document.querySelector('.footer .wallet');
-      var paySection = document.querySelector('.footer .pay');
+function addToPay(price) {
+  var walletSection = document.querySelector('.footer .wallet');
+  var paySection = document.querySelector('.footer .pay');
+  var img = document.querySelector('.footer img'); // Get the image element
 
-      // Get the current wallet amount
-      var walletText = walletSection.textContent;
-      var walletAmount = parseFloat(walletText.split('$')[1]);
+  // Get the current wallet amount
+  var walletText = walletSection.textContent;
+  var walletAmount = parseFloat(walletText.split('$')[1]);
 
-      // Subtract the price from the wallet amount
-      walletAmount -= price;
+  // Subtract the price from the wallet amount
+  walletAmount -= price;
 
-      // Update wallet section
-      walletSection.textContent = "Wallet: $" + walletAmount;
+  // Update wallet section
+  walletSection.textContent = "Wallet: $" + walletAmount;
 
-      // Add the price to the total pay amount
-      totalPayAmount += price;
+  // Add the price to the total pay amount
+  totalPayAmount += price;
 
-      // Update pay section with the total pay amount
-      paySection.textContent = "Pay: $" + totalPayAmount;
-    }
+  // Update pay section with the total pay amount
+  paySection.textContent = "Pay: $" + totalPayAmount;
+
+  // Check if total pay amount exceeds 100
+  if (totalPayAmount > 100) {
+    // Change the image source
+    img.src = "https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/payme.jpg?v=1715225219071";
+  }
+}
+
 
