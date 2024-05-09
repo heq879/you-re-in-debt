@@ -143,19 +143,46 @@ h1 {
   max-height: 100px;
 }
 
-.footer {
-  width: 100%; /* Set width to match the container */
-  background-color: lightgray;
-  padding: 0px 5px;
+.subtotal {
+  color: black;
+  font-family: "FreeMono", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 25px;
+  grid-column: 1 / span 1;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  border: 2px solid black;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  left: 50%; /* Position the left edge at the center */
-  transform: translateX(-50%);
 }
 
-.footer-content {
-  margin: ;
+.money {
+  color: black;
+  font-family: "FreeMono", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 25px;
+  grid-column: 3 / span 2;
+  text-align: center;
 }
+
+.paycode{
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paycode img {
+   margin: 25px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+p {
+  color: black;
+  font-family: "FreeMono", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 25px;
+  text-align: center;
+}
+
+
