@@ -191,11 +191,13 @@ img {
 }
 
 .footer img {
+  position: relative;
   width: 75px;
   height: 75px; 
   grid-row: 1/ span 1;
-  justify-content: center;
-  align-self: center;
+  grid-column: 2/ span 2;
+   left: 50%; 
+  transform: translateX(-50%);
 }
 
 a {
