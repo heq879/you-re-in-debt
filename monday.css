@@ -24,7 +24,7 @@ body {
 .container{
  background-color: white; 
   padding: 15px;
-  width: 750px;
+  width: 400px;
   height: auto;
   border: 2px solid black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -49,6 +49,28 @@ body {
   text-align: center;
 }
 
+.order {
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 18px;
+  margin-top: -25px;
+  grid-column: 1/ span 1;
+  grid-row: 3;
+  text-align: center;
+  justify-content: center;
+}
+
+.price {
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 18px;
+  margin-top: -25px;
+  grid-column: 3/ span 2;
+  grid-row: 3;
+  text-align: center;
+  justify-content: center;
+}
+
 .subtitle {
   color: black;
   font-family: "FreeMono", serif;
@@ -64,26 +86,6 @@ body {
   grid-row: 3 / span 1;
 }
 
-.order {
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 18px;
-  margin-top: -25px;
-  grid-column: 1;
-  grid-row: 3;
-  text-align: center;
-}
-
-.price {
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 18px;
-  margin-top: -25px;
-  grid-column: 4;
-  grid-row: 3;
-  text-align: center;
-}
-
 .text-menu {
   display: flex;
   justify-content: center;
@@ -92,7 +94,7 @@ body {
   font-family: "FreeMono", serif;
   font-size: 18px;
   margin: 25px;
-  line-height: 1.5;
+  line-height: 1;
   grid-column: 1 / span 2;
 }
 
@@ -104,11 +106,10 @@ body {
   font-family: "FreeMono", serif;
   font-size: 18px;
   margin: 25px;
-  line-height: 1.5;
-  grid-column: 4 / span 1;
+  line-height: 2;
+  grid-column: 4/ span 1;
   
 }
-
 
 
 .box {
