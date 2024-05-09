@@ -127,35 +127,17 @@ h1 {
   margin-left: 75px;
 }
 
-.weekprice1,
-.weekprice2,
-.weekprice3,
-.weekprice4,
-.weekprice5,
-.weekprice6,
-.weekprice7 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-family: "FreeMono", serif;
-  font-size: 18px;
-}
-
 .weekblock1 {
   grid-column: 1 / span 1;
   grid-row: 4 / span 1;
 }
 
 .weektext1 {
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   grid-row: 4 / span 1;
 }
 
-.weekprice1{
-  grid-column: 4 / span 1;
-  grid-row: 4 / span 1; 
-}
+
 
 
 .weekblock2 {
@@ -164,13 +146,8 @@ h1 {
 }
 
 .weektext2 {
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   grid-row: 5 / span 1;
-}
-
-.weekprice2{
-  grid-column: 4 / span 1;
-  grid-row: 5 / span 1; 
 }
 
 
@@ -180,13 +157,8 @@ h1 {
 }
 
 .weektext3 {
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   grid-row: 6 / span 1;
-}
-
-.weekprice3{
-  grid-column: 4 / span 1;
-  grid-row: 6 / span 1; 
 }
 
 
@@ -196,14 +168,10 @@ h1 {
 }
 
 .weektext4 {
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   grid-row: 7 / span 1;
 }
 
-.weekprice4{
-  grid-column: 4 / span 1;
-  grid-row: 7 / span 1; 
-}
 
 
 .weekblock5 {
@@ -212,14 +180,11 @@ h1 {
 }
 
 .weektext5 {
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   grid-row: 8 / span 1;
 }
 
-.weekprice5{
-  grid-column: 4 / span 1;
-  grid-row: 8 / span 1; 
-}
+
 
 .weekblock6 {
   grid-column: 1 / span 1;
@@ -227,14 +192,10 @@ h1 {
 }
 
 .weektext6 {
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   grid-row: 9 / span 1;
 }
 
-.weekprice6{
-  grid-column: 4 / span 1;
-  grid-row: 9/ span 1; 
-}
 
 .weekblock7 {
   grid-column: 1 / span 1;
@@ -242,13 +203,10 @@ h1 {
 }
 
 .weektext7 {
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   grid-row: 10 / span 1;
 }
-.weekprice7{
-  grid-column: 4 / span 1;
-  grid-row: 10/ span 1; 
-}
+
 
 a {
   text-decoration: none; /* Remove underline */
@@ -257,28 +215,35 @@ a {
 
 .weekblock1:hover {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/monday.png?v=1713833166506");
+  background-size: 125px 125px; 
 }
 
 .weekblock2:hover {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/tuesday.png?v=1713833166367");
+  background-size: 125px 125px; 
 }
 
 .weekblock3:hover {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/wednesday.png?v=1713833166175");
+  background-size: 125px 125px; 
 }
 
 .weekblock4:hover {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/thursday.png?v=1713833165844");
+  background-size: 125px 125px; 
 }
 
 .weekblock5:hover {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/friday.png?v=1713833165535");
+  background-size: 125px 125px; 
 }
 
 .weekblock6:hover {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/saturday.png?v=1713833165327");
+  background-size: 125px 125px; 
 }
 
 .weekblock7:hover {
   background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/sunday.png?v=1713833164996");
+  background-size: 125px 125px; 
 }
