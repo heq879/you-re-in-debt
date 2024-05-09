@@ -17,48 +17,15 @@ setInterval(updateOrderTime, 1000);
 
 //the boxes
 document.addEventListener("DOMContentLoaded", function() {
-  const gridContainer = document.getElementById('grid'); // Get the grid container with id "grid"
-
+  const boxes = document.querySelectorAll(".box");
   let isDragging = false;
   let offsetX, offsetY;
-  let textDisplayCount = 0;
 
-  document.querySelectorAll(".box").forEach(box => {
+  boxes.forEach(box => {
     const randomX = Math.random() * (window.innerWidth - 50); // Adjust 50 to box width
     const randomY = Math.random() * (window.innerHeight - 150); // Adjust 150 to total box height + footer height
     box.style.left = `${randomX}px`;
     box.style.top = `${randomY}px`;
-
-    // Extract auto-pay value from addToPay function call
-    const autoPay = parseInt(box.querySelector('button').getAttribute('onclick').match(/\d+/)[0]);
-
-    // Add click event listener to each box
-    box.addEventListener('click', function() {
-      // Create a new div element to display the text content
-      const textDisplay = document.createElement('div');
-      textDisplay.classList.add('text-display');
-      textDisplay.textContent = box.textContent.trim(); // Get and trim the text content of the box
-      
-      // Set grid column for text display
-      textDisplay.style.gridColumn = '1'; // Set grid column 1
-      
-      // Display the auto-pay value beside the text display
-      const autoPayDisplay = document.createElement('span');
-      autoPayDisplay.classList.add('auto-pay');
-      autoPayDisplay.textContent = `(${autoPay})`;
-      
-      // Set grid column for auto-pay display
-      autoPayDisplay.style.gridColumn = '4 / span 1'; // Set grid column 4, span 1
-
-      // Append textDisplay and autoPayDisplay to the same container
-      const gridItem = document.createElement('div');
-      gridItem.classList.add('grid-item');
-      gridItem.appendChild(textDisplay);
-      gridItem.appendChild(autoPayDisplay);
-      
-      // Append the gridItem to the grid container
-      gridContainer.appendChild(gridItem);
-    });
 
     // Add mouse down event listener to each box
     box.addEventListener('mousedown', function(e) {
@@ -88,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+
 
 
 
