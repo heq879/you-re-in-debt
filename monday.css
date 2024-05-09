@@ -121,10 +121,6 @@ img {
   font-family: "FreeMono", serif;
   font-size: 18px;
   z-index: 999;
-   margin-top: 5px;
-  text-align: center; 
-  grid-column: 1 / span 1;
-  
 }
 
 .auto-pay {

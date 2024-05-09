@@ -17,7 +17,6 @@ setInterval(updateOrderTime, 1000);
 
 //the boxes
 document.addEventListener("DOMContentLoaded", function() {
-  const container = document.getElementById('container');
   const gridContainer = document.getElementById('grid'); // Get the grid container with id "grid"
 
   let isDragging = false;
@@ -39,16 +38,26 @@ document.addEventListener("DOMContentLoaded", function() {
       const textDisplay = document.createElement('div');
       textDisplay.classList.add('text-display');
       textDisplay.textContent = box.textContent.trim(); // Get and trim the text content of the box
-      container.appendChild(textDisplay);
-
+      
+      // Set grid column for text display
+      textDisplay.style.gridColumn = '1'; // Set grid column 1
+      
       // Display the auto-pay value beside the text display
       const autoPayDisplay = document.createElement('span');
       autoPayDisplay.classList.add('auto-pay');
       autoPayDisplay.textContent = `(${autoPay})`;
-      textDisplay.appendChild(autoPayDisplay);
+      
+      // Set grid column for auto-pay display
+      autoPayDisplay.style.gridColumn = '4 / span 1'; // Set grid column 4, span 1
 
-      // Add auto-pay section to the grid container
-      gridContainer.appendChild(autoPayDisplay); // Append auto-pay to the grid container
+      // Append textDisplay and autoPayDisplay to the same container
+      const gridItem = document.createElement('div');
+      gridItem.classList.add('grid-item');
+      gridItem.appendChild(textDisplay);
+      gridItem.appendChild(autoPayDisplay);
+      
+      // Append the gridItem to the grid container
+      gridContainer.appendChild(gridItem);
     });
 
     // Add mouse down event listener to each box
@@ -79,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
 
 
 //the pay function
