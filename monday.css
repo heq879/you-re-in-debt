@@ -92,9 +92,23 @@ body {
   font-family: "FreeMono", serif;
   font-size: 18px;
   margin: 25px;
+  line-height: 1.5;
   grid-column: 1 / span 2;
+}
+
+.text-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "FreeMono", serif;
+  font-size: 18px;
+  margin: 25px;
+  line-height: 1.5;
+  grid-column: 4 / span 1;
   
 }
+
 
 
 .box {
