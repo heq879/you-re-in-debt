@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: darkgray;
   padding: 15px;
    display: flex;
   justify-content: center; /* Align content horizontally in the center */
@@ -160,7 +160,7 @@ img {
 
 .footer {
   width: 100%; /* Set width to match the container */
-  background-color: lightgray;
+  background-color: white;
   padding: 0px 5px;
   text-align: center;
   position: fixed;
