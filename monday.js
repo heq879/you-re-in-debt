@@ -89,7 +89,7 @@ function addToPay(price) {
   // Check if total pay amount exceeds 100
   if (totalPayAmount > 100) {
     // Change the image source
-    img.src = "https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/died.png?v=1715227942776";
+    img.src = "assets/images/died.png";
     // Link the image to die.html
     img.parentElement.href = "die.html";
   }

@@ -1,16 +1,16 @@
 @font-face {
   font-family: "OpenSans-regular";
-  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/OpenSans-VariableFont_wdth%2Cwght.ttf?v=1713823871356");
+  src: url("assets/fonts/OpenSans-VariableFont.ttf");
 }
 
 @font-face {
   font-family: "FreeMono";
-  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeMono.ttf?v=1713824397792");
+  src: url("assets/fonts/FreeMono.ttf");
 }
 
 @font-face {
   font-family: "FreeSans";
-  src: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/FreeSans.ttf?v=1713824419153");
+  src: url("assets/fonts/FreeSans.ttf");
 }
 
 
@@ -137,8 +137,6 @@ h1 {
 }
 
 
-
-
 .weekblock2 {
   grid-column: 1 / span 1;
   grid-row: 5 / span 1;
@@ -213,37 +211,37 @@ a {
 }
 
 .weekblock1:hover {
-  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/monday.png?v=1713833166506");
+  background-image: url("assets/images/monday.png");
   background-size: 125px 125px; 
 }
 
 .weekblock2:hover {
-  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/tuesday.png?v=1713833166367");
+  background-image: url("assets/images/tuesday.png");
   background-size: 125px 125px; 
 }
 
 .weekblock3:hover {
-  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/wednesday.png?v=1713833166175");
+  background-image: url("assets/images/wednesday.png");
   background-size: 125px 125px; 
 }
 
 .weekblock4:hover {
-  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/thursday.png?v=1713833165844");
+  background-image: url("assets/images/thursday.png");
   background-size: 125px 125px; 
 }
 
 .weekblock5:hover {
-  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/friday.png?v=1713833165535");
+  background-image: url("assets/images/friday.png");
   background-size: 125px 125px; 
 }
 
 .weekblock6:hover {
-  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/saturday.png?v=1713833165327");
+  background-image: url("assets/images/saturday.png");
   background-size: 125px 125px; 
 }
 
 .weekblock7:hover {
-  background-image: url("https://cdn.glitch.global/a458af96-8264-4b0d-9750-e491a70291d9/sunday.png?v=1713833164996");
+  background-image: url("assets/images/sunday.png");
   background-size: 125px 125px; 
 }
 
